@@ -12037,7 +12037,7 @@
                 "type": "library",
                 "autoload": {
                     "classmap": [
-                        "distribution/libs/Smarty.class.php"
+                        "libs/Smarty.class.php"
                     ]
                 },
                 "license": [
