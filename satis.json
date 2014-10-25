@@ -1,6 +1,6 @@
 {
-	"name": "pear",
-	"description": "Composer PEAR Repository",
+	"name": "eventum",
+	"description": "Eventum Composer Repository",
 	"repositories": [
 		{
 			"type": "pear",
