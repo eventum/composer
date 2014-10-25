@@ -1,0 +1,30 @@
+{
+	"name": "pear",
+	"description": "Composer PEAR Repository",
+	"repositories": [
+		{
+			"type": "pear",
+			"url": "http://pear.php.net",
+			"vendor-alias": "pear"
+		}
+	],
+	"require-dependencies": true,
+	"require": {
+		"pear-pear.php.net/Auth_SASL": "*",
+		"pear-pear.php.net/DB": "*",
+		"pear-pear.php.net/File_Util": "*",
+		"pear-pear.php.net/Mail": "*",
+		"pear-pear.php.net/Mail_Mime": "*",
+		"pear-pear.php.net/Mail_mimeDecode": "*",
+		"pear-pear.php.net/Math_Stats": "*",
+		"pear-pear.php.net/Net_LDAP2": "*",
+		"pear-pear.php.net/Net_POP3": "*",
+		"pear-pear.php.net/Net_SmartIRC": "*",
+		"pear-pear.php.net/Net_SMTP": "*",
+		"pear-pear.php.net/Net_Socket": "*",
+		"pear-pear.php.net/Net_URL": "*",
+		"pear-pear.php.net/PEAR": "*",
+		"pear-pear.php.net/Text_Diff": "*",
+		"pear-pear.php.net/XML_RPC": "*"
+	}
+}
