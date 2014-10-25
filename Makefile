@@ -3,7 +3,7 @@ COMPOSER := $(shell which composer.phar 2>/dev/null || which composer 2>/dev/nul
 
 all: dist/packages.json
 
-dist/packages.json: dist/.git $(SATIS)
+dist/packages.json: dist/.git $(SATIS) Makefile satis.json
 	$(SATIS) build --no-html-output satis.json dist
 
 dist/.git:
