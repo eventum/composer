@@ -6,6 +6,52 @@
 			"type": "pear",
 			"url": "http://pear.php.net",
 			"vendor-alias": "pear"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "smarty/smarty",
+				"version": "v3.1.12",
+				"source": {
+					"type": "svn",
+					"url": "http://smarty-php.googlecode.com/svn",
+					"reference": "/tags/v3.1.12/@4664"
+				},
+				"dist": {
+					"url": "http://www.smarty.net/files/Smarty-3.1.21.zip",
+					"type": "zip"
+				},
+				"require": {
+					"php": ">=5.2"
+				},
+				"autoload": {
+					"classmap": [
+						"distribution/libs/Smarty.class.php"
+					]
+				},
+				"license": [
+					"LGPL-3.0"
+				],
+				"authors": [
+					{
+						"name": "Monte Ohrt",
+						"email": "monte@ohrt.com"
+					},
+					{
+						"name": "Uwe Tews",
+						"email": "uwe.tews@googlemail.com"
+					},
+					{
+						"name": "Rodney Rehm",
+						"email": "rodney.rehm@medialize.de"
+					}
+				],
+				"description": "Smarty - the compiling PHP template engine",
+				"homepage": "http://www.smarty.net",
+				"keywords": [
+					"templating"
+				]
+			}
 		}
 	],
 	"require-dependencies": true,
@@ -25,6 +71,7 @@
 		"pear-pear.php.net/Net_URL": "*",
 		"pear-pear.php.net/PEAR": "*",
 		"pear-pear.php.net/Text_Diff": "*",
-		"pear-pear.php.net/XML_RPC": "*"
+		"pear-pear.php.net/XML_RPC": "*",
+		"smarty/smarty": "~3.1.12"
 	}
 }

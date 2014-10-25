@@ -5,6 +5,7 @@ This is composer repository to speed up packages installation in Eventum.
 
 Contains:
   - PEAR packages used by Eventum
+  - Smarty 3.1.x package
 
 To use this, Eventum `composer.json` should contain:
 
