@@ -12020,11 +12020,6 @@
                 "name": "smarty/smarty",
                 "version": "v3.1.12",
                 "version_normalized": "3.1.12.0",
-                "source": {
-                    "type": "svn",
-                    "url": "http://smarty-php.googlecode.com/svn",
-                    "reference": "/tags/v3.1.12/@4664"
-                },
                 "dist": {
                     "type": "zip",
                     "url": "http://www.smarty.net/files/Smarty-3.1.21.zip",
