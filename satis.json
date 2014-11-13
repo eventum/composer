@@ -47,6 +47,39 @@
 					"templating"
 				]
 			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "sphinx/php-sphinxapi",
+				"version": "2.0.1",
+				"dist": {
+					"url": "http://sphinxsearch.googlecode.com/svn/tags/REL_2_0_1/api/sphinxapi.php",
+					"shasum": "2b1274cbbc4b2be2aba2cb90dc5daf2036df0f49",
+					"type": "file"
+				},
+				"autoload": {
+					"classmap": [ "sphinxapi.php" ]
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "php-gettext/php-gettext",
+				"version": "1.0.11",
+				"dist": {
+					"url": "https://launchpad.net/php-gettext/trunk/1.0.11/+download/php-gettext-1.0.11.tar.gz",
+					"shasum": "9e6f402b460ba5e691e6e21f95d23527ab965f71",
+					"type": "tar"
+				},
+				"provide":  {
+					"ext-gettext":"self.version"
+				},
+				"autoload": {
+					"classmap": [ "gettext.php", "streams.php" ]
+				}
+			}
 		}
 	],
 	"require-dependencies": true,
@@ -60,13 +93,15 @@
 		"pear-pear.php.net/Math_Stats": "*",
 		"pear-pear.php.net/Net_LDAP2": "*",
 		"pear-pear.php.net/Net_POP3": "*",
-		"pear-pear.php.net/Net_SmartIRC": "*",
 		"pear-pear.php.net/Net_SMTP": "*",
+		"pear-pear.php.net/Net_SmartIRC": "*",
 		"pear-pear.php.net/Net_Socket": "*",
 		"pear-pear.php.net/Net_URL": "*",
 		"pear-pear.php.net/PEAR": "*",
 		"pear-pear.php.net/Text_Diff": "*",
 		"pear-pear.php.net/XML_RPC": "*",
-		"smarty/smarty": "~3.1.12"
+		"php-gettext/php-gettext": "1.0.11",
+		"smarty/smarty": "3.1.21",
+		"sphinx/php-sphinxapi": "2.0.1"
 	}
 }
