@@ -88,6 +88,41 @@
                 }
             }
         },
+        "components/jquery-datatables": {
+            "1.10.4": {
+                "name": "components/jquery-datatables",
+                "version": "1.10.4",
+                "version_normalized": "1.10.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/DataTables/DataTables/archive/1.10.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "media/js/jquery.dataTables.js",
+                            "media/js/jquery.dataTables.min.js"
+                        ],
+                        "style": [
+                            "media/css/jquery.dataTables.css",
+                            "media/css/jquery.dataTables.min.css"
+                        ],
+                        "files": [
+                            "media/css/jquery.dataTables.css",
+                            "media/css/jquery.dataTables.min.css",
+                            "media/images/*.ico",
+                            "media/images/*.png"
+                        ]
+                    }
+                }
+            }
+        },
         "pear-pear.php.net/Archive_Tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
