@@ -5654,6 +5654,34 @@
                     "/"
                 ],
                 "description": "Full feature list of Net_SmartIRC\n-------------------------------------\n- full object-oriented programmed\n- every received IRC message is parsed into an object\n  (containing the following info: from, nick, ident, host, channel, message, type, rawmessage)\n- actionhandler for the API (on different types of messages [channel/notice/query/kick/join..], callbacks can be registered)\n- messagehandler for the API (class-based messagehandling using IRC reply codes)\n- time events (callbacks to methods in intervals)\n- send/receive flood protection\n- detects and changes nickname on nickname collisions\n- auto-reconnect if connection is lost\n- auto-retry for initially connecting to IRC servers\n- debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)\n- supports fsocks and PHP socket extension\n- supports PHP as old as 4.4.4 (but not for much longer)\n- send buffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)\n- channel syncing (tracking of users/modes/topic etc in objects)\n- user syncing (tracking the user in channels, nick/ident/host/realname/server/hopcount in objects)\n- when channel syncing is activated, the following functions are available:\n  isJoined\n  isFounder\n  isAdmin\n  isOpped\n  isHopped\n  isVoiced\n  isBanned\n- on reconnect all joined channels will be rejoined, even when keys are used\n- own CTCP version reply can be set\n- IRC commands:\n  pass\n  op\n  deop\n  voice\n  devoice\n  ban\n  unban\n  join\n  part\n  action\n  message\n  notice\n  query\n  ctcp\n  mode\n  topic\n  nick\n  invite\n  list\n  names\n  kick\n  who\n  whois\n  whowas\n  quit"
+            },
+            "1.1.4": {
+                "name": "pear-pear.php.net/Net_SmartIRC",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Net_SmartIRC-1.1.4.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/net_smartirc": "== 1.1.4.0",
+                    "pear/net_smartirc": "== 1.1.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "description": "Full feature list of Net_SmartIRC\n-------------------------------------\n- full object-oriented programmed\n- every received IRC message is parsed into an object\n  (containing the following info: from, nick, ident, host, channel, message, type, rawmessage)\n- actionhandler for the API (on different types of messages [channel/notice/query/kick/join..], callbacks can be registered)\n- messagehandler for the API (class-based messagehandling using IRC reply codes)\n- time events (callbacks to methods in intervals)\n- send/receive flood protection\n- detects and changes nickname on nickname collisions\n- auto-reconnect if connection is lost\n- auto-retry for initially connecting to IRC servers\n- debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)\n- supports fsocks and PHP socket extension\n- supports PHP as old as 4.4.4 (but not for much longer)\n- send buffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)\n- channel syncing (tracking of users/modes/topic etc in objects)\n- user syncing (tracking the user in channels, nick/ident/host/realname/server/hopcount in objects)\n- when channel syncing is activated, the following functions are available:\n  isJoined\n  isFounder\n  isAdmin\n  isOpped\n  isHopped\n  isVoiced\n  isBanned\n- on reconnect all joined channels will be rejoined, even when keys are used\n- own CTCP version reply can be set\n- IRC commands:\n  pass\n  op\n  deop\n  voice\n  devoice\n  ban\n  unban\n  join\n  part\n  action\n  message\n  notice\n  query\n  ctcp\n  mode\n  topic\n  nick\n  invite\n  list\n  names\n  kick\n  who\n  whois\n  whowas\n  quit"
             }
         },
         "pear-pear.php.net/Net_SMTP": {
@@ -12015,11 +12043,34 @@
                 "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
             }
         },
+        "php-gettext/php-gettext": {
+            "1.0.11": {
+                "name": "php-gettext/php-gettext",
+                "version": "1.0.11",
+                "version_normalized": "1.0.11.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://launchpad.net/php-gettext/trunk/1.0.11/+download/php-gettext-1.0.11.tar.gz",
+                    "reference": null,
+                    "shasum": "9e6f402b460ba5e691e6e21f95d23527ab965f71"
+                },
+                "provide": {
+                    "ext-gettext": "self.version"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "gettext.php",
+                        "streams.php"
+                    ]
+                }
+            }
+        },
         "smarty/smarty": {
-            "v3.1.12": {
+            "v3.1.21": {
                 "name": "smarty/smarty",
-                "version": "v3.1.12",
-                "version_normalized": "3.1.12.0",
+                "version": "v3.1.21",
+                "version_normalized": "3.1.21.0",
                 "dist": {
                     "type": "zip",
                     "url": "http://www.smarty.net/files/Smarty-3.1.21.zip",
@@ -12057,6 +12108,25 @@
                 "keywords": [
                     "templating"
                 ]
+            }
+        },
+        "sphinx/php-sphinxapi": {
+            "2.0.1": {
+                "name": "sphinx/php-sphinxapi",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://sphinxsearch.googlecode.com/svn/tags/REL_2_0_1/api/sphinxapi.php",
+                    "reference": null,
+                    "shasum": "2b1274cbbc4b2be2aba2cb90dc5daf2036df0f49"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "sphinxapi.php"
+                    ]
+                }
             }
         }
     }
