@@ -1,5 +1,62 @@
 {
     "packages": {
+        "components/jquery-blockui": {
+            "dev-component": {
+                "name": "components/jquery-blockui",
+                "version": "dev-component",
+                "version_normalized": "dev-component",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/blockui.git",
+                    "reference": "784514c274687e5b96d95f1a2e0631045294b010"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/blockui/zipball/784514c274687e5b96d95f1a2e0631045294b010",
+                    "reference": "784514c274687e5b96d95f1a2e0631045294b010",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/jquery": ">=1.7",
+                    "robloach/component-installer": "*"
+                },
+                "time": "2014-10-16 21:15:12",
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "jquery.blockUI.js"
+                        ],
+                        "shim": {
+                            "deps": [
+                                "jquery"
+                            ]
+                        }
+                    }
+                },
+                "license": [
+                    "MIT",
+                    "GPL"
+                ],
+                "authors": [
+                    {
+                        "name": "M. Alsup",
+                        "homepage": "http://jquery.malsup.com"
+                    }
+                ],
+                "description": "Simulate synchronous ajax by blocking - not locking - the UI. This plugin lets you block user interaction with the page or with a specific element on the page. Also great at displaying modal dialogs.",
+                "homepage": "http://jquery.malsup.com/block/",
+                "keywords": [
+                    "block",
+                    "dialog",
+                    "modal",
+                    "overlay"
+                ],
+                "support": {
+                    "source": "https://github.com/glensc/blockui/tree/component"
+                }
+            }
+        },
         "components/jquery-chosen": {
             "1.2.0": {
                 "name": "components/jquery-chosen",
