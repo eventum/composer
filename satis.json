@@ -80,10 +80,40 @@
 					"classmap": [ "gettext.php", "streams.php" ]
 				}
 			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "components/jquery-chosen",
+				"type": "component",
+				"version": "1.2.0",
+				"dist": {
+					"url": "https://github.com/harvesthq/chosen/releases/download/v1.2.0/chosen_v1.2.0.zip",
+					"type": "zip"
+				},
+				"extra": {
+					"component": {
+						"scripts": [
+							"chosen.jquery.js"
+						],
+						"style": [
+							"chosen.css"
+						],
+						"files": [
+							"*.png",
+							"chosen.css"
+						]
+					}
+				},
+				"require": {
+					"robloach/component-installer": "*"
+				}
+			}
 		}
 	],
 	"require-dependencies": true,
 	"require": {
+		"components/jquery-chosen": "1.2.0",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
 		"pear-pear.php.net/File_Util": "*",
