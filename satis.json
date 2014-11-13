@@ -109,10 +109,15 @@
 					"robloach/component-installer": "*"
 				}
 			}
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/blockui"
 		}
 	],
 	"require-dependencies": true,
 	"require": {
+		"components/jquery-blockui": "*@dev",
 		"components/jquery-chosen": "1.2.0",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
