@@ -1,5 +1,36 @@
 {
     "packages": {
+        "components/jquery-chosen": {
+            "1.2.0": {
+                "name": "components/jquery-chosen",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/harvesthq/chosen/releases/download/v1.2.0/chosen_v1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "chosen.jquery.js"
+                        ],
+                        "style": [
+                            "chosen.css"
+                        ],
+                        "files": [
+                            "*.png",
+                            "chosen.css"
+                        ]
+                    }
+                }
+            }
+        },
         "pear-pear.php.net/Archive_Tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
