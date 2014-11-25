@@ -1,26 +1,26 @@
 {
     "packages": {
         "components/jquery-blockui": {
-            "dev-component": {
+            "2.70": {
                 "name": "components/jquery-blockui",
-                "version": "dev-component",
-                "version_normalized": "dev-component",
+                "version": "2.70",
+                "version_normalized": "2.70.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/glensc/blockui.git",
-                    "reference": "784514c274687e5b96d95f1a2e0631045294b010"
+                    "url": "https://github.com/malsup/blockui.git",
+                    "reference": "316f6e5d76a33266970778e80507149d9ef6a02d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/blockui/zipball/784514c274687e5b96d95f1a2e0631045294b010",
-                    "reference": "784514c274687e5b96d95f1a2e0631045294b010",
+                    "url": "https://api.github.com/repos/malsup/blockui/zipball/316f6e5d76a33266970778e80507149d9ef6a02d",
+                    "reference": "316f6e5d76a33266970778e80507149d9ef6a02d",
                     "shasum": ""
                 },
                 "require": {
                     "components/jquery": ">=1.7",
                     "robloach/component-installer": "*"
                 },
-                "time": "2014-10-16 21:15:12",
+                "time": "2014-11-24 03:14:41",
                 "type": "component",
                 "extra": {
                     "component": {
@@ -53,7 +53,64 @@
                     "overlay"
                 ],
                 "support": {
-                    "source": "https://github.com/glensc/blockui/tree/component"
+                    "source": "https://github.com/malsup/blockui/tree/2.70",
+                    "issues": "https://github.com/malsup/blockui/issues"
+                }
+            },
+            "dev-master": {
+                "name": "components/jquery-blockui",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/malsup/blockui.git",
+                    "reference": "316f6e5d76a33266970778e80507149d9ef6a02d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/malsup/blockui/zipball/316f6e5d76a33266970778e80507149d9ef6a02d",
+                    "reference": "316f6e5d76a33266970778e80507149d9ef6a02d",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/jquery": ">=1.7",
+                    "robloach/component-installer": "*"
+                },
+                "time": "2014-11-24 03:14:41",
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "jquery.blockUI.js"
+                        ],
+                        "shim": {
+                            "deps": [
+                                "jquery"
+                            ]
+                        }
+                    }
+                },
+                "license": [
+                    "MIT",
+                    "GPL"
+                ],
+                "authors": [
+                    {
+                        "name": "M. Alsup",
+                        "homepage": "http://jquery.malsup.com"
+                    }
+                ],
+                "description": "Simulate synchronous ajax by blocking - not locking - the UI. This plugin lets you block user interaction with the page or with a specific element on the page. Also great at displaying modal dialogs.",
+                "homepage": "http://jquery.malsup.com/block/",
+                "keywords": [
+                    "block",
+                    "dialog",
+                    "modal",
+                    "overlay"
+                ],
+                "support": {
+                    "source": "https://github.com/malsup/blockui/tree/2.70",
+                    "issues": "https://github.com/malsup/blockui/issues"
                 }
             }
         },
