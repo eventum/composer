@@ -17,4 +17,4 @@ To use this, Eventum `composer.json` should contain:
 		},
 ```
 
-NOTE: actual composer repository is on `repo` branch
+NOTE: actual composer repository is on [repo](https://github.com/eventum/composer/tree/repo) branch
