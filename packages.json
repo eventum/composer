@@ -1,7 +1,7 @@
 {
     "packages": [],
     "includes": {
-        "include/all$28599555100bb9d49789a93b6284f77db510d270.json": {
+        "all.json": {
             "sha1": "28599555100bb9d49789a93b6284f77db510d270"
         }
     }
