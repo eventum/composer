@@ -8,6 +8,10 @@
 			"vendor-alias": "pear"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/eventum/rpc"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "smarty/smarty",
@@ -153,6 +157,7 @@
 		"components/jquery-blockui": "*@dev",
 		"components/jquery-chosen": "*",
 		"components/jquery-datatables": "*",
+		"eventum/rpc": "*",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
 		"pear-pear.php.net/File_Util": "*",
