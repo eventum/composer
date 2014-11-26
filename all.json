@@ -180,6 +180,49 @@
                 }
             }
         },
+        "eventum/rpc": {
+            "dev-master": {
+                "name": "eventum/rpc",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/rpc.git",
+                    "reference": "70256a35ab88fed451bb6e59d32a9a19ef07ce6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/rpc/zipball/70256a35ab88fed451bb6e59d32a9a19ef07ce6a",
+                    "reference": "70256a35ab88fed451bb6e59d32a9a19ef07ce6a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/xml_rpc": "~1.5.5",
+                    "php": ">=5.1.2"
+                },
+                "time": "2014-11-26 22:10:22",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Eventum_RPC.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee"
+                    }
+                ],
+                "description": "Eventum RPC Client Library",
+                "support": {
+                    "source": "https://github.com/eventum/rpc/tree/master",
+                    "issues": "https://github.com/eventum/rpc/issues"
+                }
+            }
+        },
         "pear-pear.php.net/Archive_Tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
