@@ -181,26 +181,26 @@
             }
         },
         "eventum/rpc": {
-            "dev-master": {
+            "v3.0.0": {
                 "name": "eventum/rpc",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v3.0.0",
+                "version_normalized": "3.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eventum/rpc.git",
-                    "reference": "70256a35ab88fed451bb6e59d32a9a19ef07ce6a"
+                    "reference": "fb00d5580c6a0058e5004a7a5f6607936065bf03"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eventum/rpc/zipball/70256a35ab88fed451bb6e59d32a9a19ef07ce6a",
-                    "reference": "70256a35ab88fed451bb6e59d32a9a19ef07ce6a",
+                    "url": "https://api.github.com/repos/eventum/rpc/zipball/fb00d5580c6a0058e5004a7a5f6607936065bf03",
+                    "reference": "fb00d5580c6a0058e5004a7a5f6607936065bf03",
                     "shasum": ""
                 },
                 "require": {
                     "pear-pear.php.net/xml_rpc": "~1.5.5",
                     "php": ">=5.1.2"
                 },
-                "time": "2014-11-26 22:10:22",
+                "time": "2014-11-27 20:57:54",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -218,7 +218,48 @@
                 ],
                 "description": "Eventum RPC Client Library",
                 "support": {
-                    "source": "https://github.com/eventum/rpc/tree/master",
+                    "source": "https://github.com/eventum/rpc/tree/v3.0.0",
+                    "issues": "https://github.com/eventum/rpc/issues"
+                }
+            },
+            "dev-master": {
+                "name": "eventum/rpc",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/rpc.git",
+                    "reference": "fb00d5580c6a0058e5004a7a5f6607936065bf03"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/rpc/zipball/fb00d5580c6a0058e5004a7a5f6607936065bf03",
+                    "reference": "fb00d5580c6a0058e5004a7a5f6607936065bf03",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/xml_rpc": "~1.5.5",
+                    "php": ">=5.1.2"
+                },
+                "time": "2014-11-27 20:57:54",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Eventum_RPC.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee"
+                    }
+                ],
+                "description": "Eventum RPC Client Library",
+                "support": {
+                    "source": "https://github.com/eventum/rpc/tree/v3.0.0",
                     "issues": "https://github.com/eventum/rpc/issues"
                 }
             }
@@ -2379,6 +2420,35 @@
                 "replace": {
                     "pear-pear/db": "== 1.8.1.0",
                     "pear/db": "== 1.8.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+            },
+            "1.8.2": {
+                "name": "pear-pear.php.net/DB",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/DB-1.8.2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/pear": ">=1.0.0.0",
+                    "php": ">=5.0.0.0"
+                },
+                "replace": {
+                    "pear-pear/db": "== 1.8.2.0",
+                    "pear/db": "== 1.8.2.0"
                 },
                 "type": "pear-library",
                 "autoload": {
