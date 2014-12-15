@@ -142,7 +142,10 @@
                             "chosen.css"
                         ]
                     }
-                }
+                },
+                "license": [
+                    "MIT"
+                ]
             }
         },
         "components/jquery-datatables": {
@@ -12414,10 +12417,64 @@
                         "gettext.php",
                         "streams.php"
                     ]
-                }
+                },
+                "license": [
+                    "GPL-2.0",
+                    "GPL-3.0"
+                ]
             }
         },
         "smarty/smarty": {
+            "2.6.28": {
+                "name": "smarty/smarty",
+                "version": "2.6.28",
+                "version_normalized": "2.6.28.0",
+                "source": {
+                    "type": "svn",
+                    "url": "http://smarty-php.googlecode.com/svn/",
+                    "reference": "tags/Smarty_2_6_28/"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://www.smarty.net/files/Smarty-2.6.28.tar.gz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/"
+                    ]
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Monte Ohrt",
+                        "email": "monte@ohrt.com"
+                    },
+                    {
+                        "name": "Uwe Tews",
+                        "email": "uwe.tews@googlemail.com"
+                    },
+                    {
+                        "name": "Rodney Rehm",
+                        "email": "rodney.rehm@medialize.de"
+                    }
+                ],
+                "description": "Smarty - the compiling PHP template engine",
+                "homepage": "http://www.smarty.net",
+                "support": {
+                    "irc": "irc://irc.freenode.org/smarty",
+                    "issues": "http://code.google.com/p/smarty-php/issues/list",
+                    "forum": "http://www.smarty.net/forums/",
+                    "source": "http://code.google.com/p/smarty-php/source/browse/"
+                }
+            },
             "v3.1.21": {
                 "name": "smarty/smarty",
                 "version": "v3.1.21",
@@ -12477,7 +12534,10 @@
                     "classmap": [
                         "sphinxapi.php"
                     ]
-                }
+                },
+                "license": [
+                    "GPL-2.0"
+                ]
             }
         }
     }
