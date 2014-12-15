@@ -97,6 +97,9 @@
 				"name": "components/jquery-chosen",
 				"type": "component",
 				"version": "1.2.0",
+				"license": [
+					"MIT"
+				],
 				"dist": {
 					"url": "https://github.com/harvesthq/chosen/releases/download/v1.2.0/chosen_v1.2.0.zip",
 					"type": "zip"
