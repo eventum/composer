@@ -72,6 +72,9 @@
 			"package": {
 				"name": "php-gettext/php-gettext",
 				"version": "1.0.11",
+				"license": [
+					"GPL-2.0", "GPL-3.0"
+				],
 				"dist": {
 					"url": "https://launchpad.net/php-gettext/trunk/1.0.11/+download/php-gettext-1.0.11.tar.gz",
 					"shasum": "9e6f402b460ba5e691e6e21f95d23527ab965f71",
