@@ -183,6 +183,37 @@
                 }
             }
         },
+        "enyo/dropzone": {
+            "4.0.1": {
+                "name": "enyo/dropzone",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/enyo/dropzone/archive/v4.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "index.js",
+                            "dist/dropzone.js"
+                        ],
+                        "styles": [
+                            "dist/basic.css"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ]
+            }
+        },
         "eventum/rpc": {
             "v3.0.0": {
                 "name": "eventum/rpc",
