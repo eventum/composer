@@ -124,6 +124,30 @@
 			}
 		},
 		{
+			"type": "package",
+			"package": {
+				"name": "enyo/dropzone",
+				"type": "component",
+				"version": "4.0.1",
+				"license": [
+					"MIT"
+				],
+				"dist": {
+					"url": "https://github.com/enyo/dropzone/archive/v4.0.1.zip",
+					"type": "zip"
+				},
+				"extra": {
+					"component": {
+						"scripts": [ "index.js", "dist/dropzone.js" ],
+						"styles": [ "dist/basic.css" ]
+					}
+				},
+				"require": {
+					"robloach/component-installer": "*"
+				}
+			}
+		},
+		{
 			"type": "vcs",
 			"url": "https://github.com/malsup/blockui"
 		},
@@ -166,6 +190,7 @@
 		"components/jquery-blockui": "*@dev",
 		"components/jquery-chosen": "*",
 		"components/jquery-datatables": "*",
+		"enyo/dropzone":"*",
 		"eventum/rpc": "*",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
