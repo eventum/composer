@@ -647,6 +647,68 @@
                 ],
                 "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
             },
+            "1.3.14": {
+                "name": "pear-pear.php.net/Archive_Tar",
+                "version": "1.3.14",
+                "version_normalized": "1.3.14.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Archive_Tar-1.3.14.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/archive_tar": "== 1.3.14.0",
+                    "pear/archive_tar": "== 1.3.14.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "New BSD\n License"
+                ],
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+            },
+            "1.3.15": {
+                "name": "pear-pear.php.net/Archive_Tar",
+                "version": "1.3.15",
+                "version_normalized": "1.3.15.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Archive_Tar-1.3.15.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/archive_tar": "== 1.3.15.0",
+                    "pear/archive_tar": "== 1.3.15.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "New BSD\n License"
+                ],
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+            },
             "1.3.2": {
                 "name": "pear-pear.php.net/Archive_Tar",
                 "version": "1.3.2",
@@ -1331,6 +1393,37 @@
                 "replace": {
                     "pear-pear/console_getopt": "== 1.3.1.0",
                     "pear/console_getopt": "== 1.3.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP License"
+                ],
+                "description": "This is a PHP implementation of &quot;getopt&quot; supporting both\nshort and long options."
+            },
+            "1.4.0": {
+                "name": "pear-pear.php.net/Console_Getopt",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Console_Getopt-1.4.0.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.4.0.0"
+                },
+                "replace": {
+                    "pear-pear/console_getopt": "== 1.4.0.0",
+                    "pear/console_getopt": "== 1.4.0.0"
                 },
                 "type": "pear-library",
                 "autoload": {
@@ -12051,6 +12144,37 @@
                     "LGPL License"
                 ],
                 "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
+            },
+            "1.1.0": {
+                "name": "pear-pear.php.net/Structures_Graph",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Structures_Graph-1.1.0.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/structures_graph": "== 1.1.0.0",
+                    "pear/structures_graph": "== 1.1.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL License"
+                ],
+                "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
             }
         },
         "pear-pear.php.net/Text_Diff": {
@@ -13736,6 +13860,38 @@
                     "BSD License"
                 ],
                 "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
+            },
+            "1.3.0": {
+                "name": "pear-pear.php.net/XML_Util",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/XML_Util-1.3.0.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/xml_util": "== 1.3.0.0",
+                    "pear/xml_util": "== 1.3.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD License"
+                ],
+                "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
             }
         },
         "php-gettext/php-gettext": {
@@ -13766,6 +13922,56 @@
             }
         },
         "smarty/smarty": {
+            "2.6.28": {
+                "name": "smarty/smarty",
+                "version": "2.6.28",
+                "version_normalized": "2.6.28.0",
+                "source": {
+                    "type": "svn",
+                    "url": "http://smarty-php.googlecode.com/svn/",
+                    "reference": "tags/Smarty_2_6_28/"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "http://www.smarty.net/files/Smarty-2.6.28.tar.gz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.2"
+                },
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "libs/"
+                    ]
+                },
+                "license": [
+                    "LGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Monte Ohrt",
+                        "email": "monte@ohrt.com"
+                    },
+                    {
+                        "name": "Uwe Tews",
+                        "email": "uwe.tews@googlemail.com"
+                    },
+                    {
+                        "name": "Rodney Rehm",
+                        "email": "rodney.rehm@medialize.de"
+                    }
+                ],
+                "description": "Smarty - the compiling PHP template engine",
+                "homepage": "http://www.smarty.net",
+                "support": {
+                    "irc": "irc://irc.freenode.org/smarty",
+                    "issues": "http://code.google.com/p/smarty-php/issues/list",
+                    "forum": "http://www.smarty.net/forums/",
+                    "source": "http://code.google.com/p/smarty-php/source/browse/"
+                }
+            },
             "v3.1.21": {
                 "name": "smarty/smarty",
                 "version": "v3.1.21",
