@@ -298,6 +298,23 @@
                 }
             }
         },
+        "fonts/liberation": {
+            "2.00.1": {
+                "name": "fonts/liberation",
+                "version": "2.00.1",
+                "version_normalized": "2.00.1.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "library",
+                "license": [
+                    "OFL-1.1"
+                ]
+            }
+        },
         "pear-pear.php.net/Archive_Tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
