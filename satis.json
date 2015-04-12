@@ -138,6 +138,19 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "fonts/liberation",
+				"version": "2.00.1",
+				"license": "OFL-1.1",
+				"type": "library",
+				"dist": {
+					"url": "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz",
+					"type": "tar"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "components/jquery-datatables",
 				"type": "component",
 				"version": "1.10.4",
@@ -176,6 +189,7 @@
 		"components/jquery-datatables": "*",
 		"enyo/dropzone":"*",
 		"eventum/rpc": "*",
+		"fonts/liberation": "*",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
 		"pear-pear.php.net/File_Util": "*",
@@ -185,8 +199,8 @@
 		"pear-pear.php.net/Math_Stats": "*",
 		"pear-pear.php.net/Net_LDAP2": "*",
 		"pear-pear.php.net/Net_POP3": "*",
-		"pear-pear.php.net/Net_SMTP": "*",
 		"pear-pear.php.net/Net_SmartIRC": "*",
+		"pear-pear.php.net/Net_SMTP": "*",
 		"pear-pear.php.net/Net_Socket": "*",
 		"pear-pear.php.net/Net_URL": "*",
 		"pear-pear.php.net/PEAR": "*",
