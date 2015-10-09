@@ -5,7 +5,6 @@ This is [composer](https://getcomposer.org/) repository to speed up packages ins
 
 Contains:
   - PEAR packages used by Eventum
-  - Smarty 3.1.x package
   - Various third-party libraries lacking `composer.json`
 
 To use this, Eventum `composer.json` should contain:
