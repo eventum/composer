@@ -138,6 +138,29 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "jackmoore/autosize",
+				"type": "component",
+				"version": "3.0.13",
+				"license": [
+					"MIT"
+				],
+				"dist": {
+					"url": "https://github.com/jackmoore/autosize/archive/3.0.13.zip",
+					"type": "zip"
+				},
+				"extra": {
+					"component": {
+						"scripts": [ "dist/autosize.js" ]
+					}
+				},
+				"require": {
+					"robloach/component-installer": "*"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "fonts/liberation",
 				"version": "2.00.1",
 				"license": "OFL-1.1",
@@ -190,6 +213,7 @@
 		"enyo/dropzone":"*",
 		"eventum/rpc": "*",
 		"fonts/liberation": "*",
+		"jackmoore/autosize":"*",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
 		"pear-pear.php.net/File_Util": "*",
@@ -199,8 +223,8 @@
 		"pear-pear.php.net/Math_Stats": "*",
 		"pear-pear.php.net/Net_LDAP2": "*",
 		"pear-pear.php.net/Net_POP3": "*",
-		"pear-pear.php.net/Net_SmartIRC": "*",
 		"pear-pear.php.net/Net_SMTP": "*",
+		"pear-pear.php.net/Net_SmartIRC": "*",
 		"pear-pear.php.net/Net_Socket": "*",
 		"pear-pear.php.net/Net_URL": "*",
 		"pear-pear.php.net/PEAR": "*",
