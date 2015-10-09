@@ -1,7 +1,7 @@
 Eventum Composer repository
 ===========================
 
-This is composer repository to speed up packages installation in Eventum.
+This is [composer](https://getcomposer.org/) repository to speed up packages installation in Eventum.
 
 Contains:
   - PEAR packages used by Eventum
@@ -14,8 +14,8 @@ To use this, Eventum `composer.json` should contain:
 	"repositories": [
 		{
 			"type": "composer",
-			"url": "https://raw.githubusercontent.com/eventum/composer/repo/"
+			"url": "https://eventum.github.io/composer/"
 		},
 ```
 
-NOTE: actual composer repository is on [repo](https://github.com/eventum/composer/tree/repo) branch
+NOTE: actual composer repository is on [gh-pages](https://github.com/eventum/composer/tree/gh-pages) branch and published at https://eventum.github.io/composer/.
