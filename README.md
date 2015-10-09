@@ -17,4 +17,6 @@ To use this, Eventum `composer.json` should contain:
 		},
 ```
 
-NOTE: actual composer repository is on [gh-pages](https://github.com/eventum/composer/tree/gh-pages) branch and published at https://eventum.github.io/composer/.
+Head over to https://eventum.github.io/composer/ to browse available packages.
+
+__NOTE__: actual composer repository is on [gh-pages](https://github.com/eventum/composer/tree/gh-pages) branch
