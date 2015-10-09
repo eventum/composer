@@ -397,6 +397,33 @@
                 ]
             }
         },
+        "jackmoore/autosize": {
+            "3.0.13": {
+                "name": "jackmoore/autosize",
+                "version": "3.0.13",
+                "version_normalized": "3.0.13.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/jackmoore/autosize/archive/3.0.13.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "dist/autosize.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ]
+            }
+        },
         "pear-pear.php.net/Archive_Tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
