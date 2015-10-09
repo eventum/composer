@@ -5,7 +5,7 @@ all: dist/packages.json
 
 dist/packages.json: dist/.git $(SATIS) Makefile satis.json
 	test ! -d dist/include || mv dist/include dist/include.`date +%s`
-	$(SATIS) build --no-html-output satis.json dist
+	$(SATIS) build satis.json dist
 	# use consistent filename
 	json=`cd dist && echo include/all*.json` && sed -i -e "s#$$json#all.json#" dist/packages.json && mv dist/$$json dist/all.json
 	rm -rf dist/include*
