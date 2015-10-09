@@ -11,7 +11,7 @@ dist/packages.json: dist/.git $(SATIS) Makefile satis.json
 	rm -rf dist/include*
 
 dist/.git:
-	git clone git@github.com:eventum/composer.git dist -b repo --depth=1
+	git clone git@github.com:eventum/composer.git dist -b gh-pages --depth=1
 
 $(SATIS):
 	$(COMPOSER) create-project composer/satis --stability=dev --keep-vcs --prefer-dist --no-dev
