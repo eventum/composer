@@ -1,6 +1,7 @@
 {
 	"name": "eventum",
 	"description": "Eventum Composer Repository",
+	"homepage": "https://eventum.github.io/composer/",
 	"repositories": [
 		{
 			"type": "pear",
