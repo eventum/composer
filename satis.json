@@ -112,6 +112,10 @@
 			"url": "https://github.com/malsup/blockui"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/zxcvbn"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "phplot/phplot",
@@ -211,6 +215,7 @@
 		"components/jquery-blockui": "*@dev",
 		"components/jquery-chosen": "*",
 		"components/jquery-datatables": "*",
+		"dropbox/zxcvbn": "*",
 		"enyo/dropzone":"*",
 		"eventum/rpc": "*",
 		"fonts/liberation": "*",
