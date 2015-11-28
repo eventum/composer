@@ -426,7 +426,7 @@
                 ],
                 "description": "Eventum RPC Client Library",
                 "support": {
-                    "source": "https://github.com/eventum/rpc/tree/master",
+                    "source": "https://github.com/eventum/rpc/tree/v3.0.3",
                     "issues": "https://github.com/eventum/rpc/issues"
                 }
             },
@@ -467,7 +467,7 @@
                 ],
                 "description": "Eventum RPC Client Library",
                 "support": {
-                    "source": "https://github.com/eventum/rpc/tree/master",
+                    "source": "https://github.com/eventum/rpc/tree/v3.0.3",
                     "issues": "https://github.com/eventum/rpc/issues"
                 }
             }
@@ -14875,7 +14875,7 @@
                 "extra": {
                     "component": {
                         "scripts": [
-                            "chosen.jquery.js"
+                            "jquery.timeago.js"
                         ]
                     }
                 },
