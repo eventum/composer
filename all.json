@@ -14859,19 +14859,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/glensc/jquery-timeago.git",
-                    "reference": "43c1749a909862d473b11c223776088ea749f3d3"
+                    "reference": "b8db95f8e9ead4c91e3fbfd0f9e8aab77b734759"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/jquery-timeago/zipball/43c1749a909862d473b11c223776088ea749f3d3",
-                    "reference": "43c1749a909862d473b11c223776088ea749f3d3",
+                    "url": "https://api.github.com/repos/glensc/jquery-timeago/zipball/b8db95f8e9ead4c91e3fbfd0f9e8aab77b734759",
+                    "reference": "b8db95f8e9ead4c91e3fbfd0f9e8aab77b734759",
                     "shasum": ""
                 },
-                "require": {
-                    "robloach/component-installer": "*"
-                },
-                "time": "2015-11-28 11:16:15",
-                "type": "component",
+                "time": "2015-11-28 22:11:58",
+                "type": "library",
                 "extra": {
                     "component": {
                         "scripts": [
