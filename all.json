@@ -338,6 +338,47 @@
                     "issues": "https://github.com/eventum/rpc/issues"
                 }
             },
+            "v3.0.3": {
+                "name": "eventum/rpc",
+                "version": "v3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/rpc.git",
+                    "reference": "e7e00cf7439733ffd34462b418f0a82440872580"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/rpc/zipball/e7e00cf7439733ffd34462b418f0a82440872580",
+                    "reference": "e7e00cf7439733ffd34462b418f0a82440872580",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.php.net/xml_rpc": "~1.5.5",
+                    "php": ">=5.1.2"
+                },
+                "time": "2015-07-27 11:52:27",
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "class.Eventum_RPC.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee"
+                    }
+                ],
+                "description": "Eventum RPC Client Library",
+                "support": {
+                    "source": "https://github.com/eventum/rpc/tree/master",
+                    "issues": "https://github.com/eventum/rpc/issues"
+                }
+            },
             "dev-master": {
                 "name": "eventum/rpc",
                 "version": "dev-master",
@@ -1686,7 +1727,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.3": {
                 "name": "pear-pear.php.net/DB",
@@ -1714,7 +1755,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.4.0": {
                 "name": "pear-pear.php.net/DB",
@@ -1742,7 +1783,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.4b1": {
                 "name": "pear-pear.php.net/DB",
@@ -1770,7 +1811,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.5.0RC1": {
                 "name": "pear-pear.php.net/DB",
@@ -1798,7 +1839,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.5.0RC2": {
                 "name": "pear-pear.php.net/DB",
@@ -1826,7 +1867,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0": {
                 "name": "pear-pear.php.net/DB",
@@ -1858,7 +1899,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0RC1": {
                 "name": "pear-pear.php.net/DB",
@@ -1890,7 +1931,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0RC2": {
                 "name": "pear-pear.php.net/DB",
@@ -1922,7 +1963,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0RC3": {
                 "name": "pear-pear.php.net/DB",
@@ -1954,7 +1995,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0RC4": {
                 "name": "pear-pear.php.net/DB",
@@ -1986,7 +2027,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0RC5": {
                 "name": "pear-pear.php.net/DB",
@@ -2018,7 +2059,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.0RC6": {
                 "name": "pear-pear.php.net/DB",
@@ -2050,7 +2091,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.1": {
                 "name": "pear-pear.php.net/DB",
@@ -2082,7 +2123,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.2": {
                 "name": "pear-pear.php.net/DB",
@@ -2114,7 +2155,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.3": {
                 "name": "pear-pear.php.net/DB",
@@ -2146,7 +2187,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.4": {
                 "name": "pear-pear.php.net/DB",
@@ -2178,7 +2219,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.5": {
                 "name": "pear-pear.php.net/DB",
@@ -2210,7 +2251,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.6": {
                 "name": "pear-pear.php.net/DB",
@@ -2242,7 +2283,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.7": {
                 "name": "pear-pear.php.net/DB",
@@ -2274,7 +2315,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.6.8": {
                 "name": "pear-pear.php.net/DB",
@@ -2306,7 +2347,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.0": {
                 "name": "pear-pear.php.net/DB",
@@ -2338,7 +2379,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.0RC1": {
                 "name": "pear-pear.php.net/DB",
@@ -2370,7 +2411,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.1": {
                 "name": "pear-pear.php.net/DB",
@@ -2402,7 +2443,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.10": {
                 "name": "pear-pear.php.net/DB",
@@ -2434,7 +2475,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.11": {
                 "name": "pear-pear.php.net/DB",
@@ -2466,7 +2507,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.12": {
                 "name": "pear-pear.php.net/DB",
@@ -2498,7 +2539,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.13": {
                 "name": "pear-pear.php.net/DB",
@@ -2530,7 +2571,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.14": {
                 "name": "pear-pear.php.net/DB",
@@ -2562,7 +2603,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.14RC1": {
                 "name": "pear-pear.php.net/DB",
@@ -2594,7 +2635,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.14RC2": {
                 "name": "pear-pear.php.net/DB",
@@ -2626,7 +2667,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.2": {
                 "name": "pear-pear.php.net/DB",
@@ -2658,7 +2699,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.3": {
                 "name": "pear-pear.php.net/DB",
@@ -2690,7 +2731,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.4": {
                 "name": "pear-pear.php.net/DB",
@@ -2722,7 +2763,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.5": {
                 "name": "pear-pear.php.net/DB",
@@ -2754,7 +2795,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.6": {
                 "name": "pear-pear.php.net/DB",
@@ -2786,7 +2827,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.7": {
                 "name": "pear-pear.php.net/DB",
@@ -2818,7 +2859,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.8": {
                 "name": "pear-pear.php.net/DB",
@@ -2850,7 +2891,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.8RC1": {
                 "name": "pear-pear.php.net/DB",
@@ -2882,7 +2923,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.8RC2": {
                 "name": "pear-pear.php.net/DB",
@@ -2914,7 +2955,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.7.9": {
                 "name": "pear-pear.php.net/DB",
@@ -2946,7 +2987,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.8.0": {
                 "name": "pear-pear.php.net/DB",
@@ -2978,7 +3019,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.8.1": {
                 "name": "pear-pear.php.net/DB",
@@ -3010,7 +3051,7 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             },
             "1.8.2": {
                 "name": "pear-pear.php.net/DB",
@@ -3042,7 +3083,103 @@
                 "license": [
                     "PHP License"
                 ],
-                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5."
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
+            },
+            "1.9.0": {
+                "name": "pear-pear.php.net/DB",
+                "version": "1.9.0",
+                "version_normalized": "1.9.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/DB-1.9.0.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/pear": ">=1.0.0.0",
+                    "php": ">=5.0.0.0"
+                },
+                "replace": {
+                    "pear-pear/db": "== 1.9.0.0",
+                    "pear/db": "== 1.9.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP License"
+                ],
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
+            },
+            "1.9.1": {
+                "name": "pear-pear.php.net/DB",
+                "version": "1.9.1",
+                "version_normalized": "1.9.1.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/DB-1.9.1.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/pear": ">=1.10.0.0",
+                    "php": ">=5.0.0.0"
+                },
+                "replace": {
+                    "pear-pear/db": "== 1.9.1.0",
+                    "pear/db": "== 1.9.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP License"
+                ],
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
+            },
+            "1.9.2": {
+                "name": "pear-pear.php.net/DB",
+                "version": "1.9.2",
+                "version_normalized": "1.9.2.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/DB-1.9.2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/pear": ">=1.10.0.0",
+                    "php": ">=5.0.0.0"
+                },
+                "replace": {
+                    "pear-pear/db": "== 1.9.2.0",
+                    "pear/db": "== 1.9.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP License"
+                ],
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             }
         },
         "pear-pear.php.net/File": {
@@ -6367,6 +6504,38 @@
                     "LGPLv3 License"
                 ],
                 "description": "Net_LDAP2 is the successor of Net_LDAP which is a clone of Perls Net::LDAP\n                object interface to directory servers. It does contain most of Net::LDAPs\n                features but has some own too.\n                 With Net_LDAP2 you have:\n                 * A simple object-oriented interface to connections, searches entries and filters.\n                 * Support for TLS and LDAP v3.\n                 * Simple modification, deletion and creation of LDAP entries.\n                 * Support for schema handling.\n\n                 Net_LDAP2 layers itself on top of PHP's existing ldap extensions."
+            },
+            "2.2.0": {
+                "name": "pear-pear.php.net/Net_LDAP2",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Net_LDAP2-2.2.0.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-ldap": "*",
+                    "php": ">=5.4.0.0"
+                },
+                "replace": {
+                    "pear-pear/net_ldap2": "== 2.2.0.0",
+                    "pear/net_ldap2": "== 2.2.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPLv3 License"
+                ],
+                "description": "Net_LDAP2 is the successor of Net_LDAP which is a clone of Perls Net::LDAP\n                object interface to directory servers. It does contain most of Net::LDAPs\n                features but has some own too.\n                 With Net_LDAP2 you have:\n                 * A simple object-oriented interface to connections, searches entries and filters.\n                 * Support for TLS and LDAP v3.\n                 * Simple modification, deletion and creation of LDAP entries.\n                 * Support for schema handling.\n\n                 Net_LDAP2 layers itself on top of PHP's existing ldap extensions."
             }
         },
         "pear-pear.php.net/Net_POP3": {
@@ -7206,6 +7375,37 @@
                 "replace": {
                     "pear-pear/net_smartirc": "== 1.1.8.0",
                     "pear/net_smartirc": "== 1.1.8.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL"
+                ],
+                "description": "SmartIRC is your go-to library for interfacing with IRC networks. All you need is PHP 5.3 or later.\n\nFull feature list:\n-------------------------------------\n- Fully object-oriented programmed\n- Your bot class can be inline in the same file you call SmartIRC from, or included as an external file\n- Every received IRC message is parsed into an object you can easily get information from\n  (containing the following info: rawmessage, from, nick, ident, host, type, params, message, channel)\n- Make your bots using Action Handlers and Time Handlers, which register custom callbacks when various events happen or on time intervals, respectively – or, extend the Net_SmartIRC class to add (or override) handlers directly using individual server message types\n- Flood protection which uses a send buffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)\n- Nick collision detection and handling\n- Auto-retry during initial connection attempt\n- Auto-reconnect if connection is lost, which will re-join to the channels it was in before\n- Debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)\n- Supports PHP as old as 5.3.0\n- Channel syncing (tracking of users/modes/topic etc in objects)\n- Customizable CTCP VERSION reply"
+            },
+            "1.1.9": {
+                "name": "pear-pear.php.net/Net_SmartIRC",
+                "version": "1.1.9",
+                "version_normalized": "1.1.9.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Net_SmartIRC-1.1.9.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/net_smartirc": "== 1.1.9.0",
+                    "pear/net_smartirc": "== 1.1.9.0"
                 },
                 "type": "pear-library",
                 "autoload": {
@@ -9527,6 +9727,47 @@
                 "replace": {
                     "pear-pear/pear": "== 1.10.0.0",
                     "pear/pear": "== 1.10.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "New BSD License"
+                ],
+                "description": "The PEAR package contains:\n * the PEAR installer, for creating, distributing\n   and installing packages\n * the PEAR_Exception PHP5 error handling mechanism\n * the PEAR_ErrorStack advanced error handling mechanism\n * the PEAR_Error error handling mechanism\n * the OS_Guess class for retrieving info about the OS\n   where PHP is running on\n * the System class for quick handling of common operations\n   with files and directories\n * the PEAR base class\n  Features in a nutshell:\n  * full support for channels\n  * pre-download dependency validation\n  * new package.xml 2.0 format allows tremendous flexibility while maintaining BC\n  * support for optional dependency groups and limited support for sub-packaging\n  * robust dependency support\n  * full dependency validation on uninstall\n  * remote install for hosts with only ftp access - no more problems with\n    restricted host installation\n  * full support for mirroring\n  * support for bundling several packages into a single tarball\n  * support for static dependencies on a url-based package\n  * support for custom file roles and installation tasks"
+            },
+            "1.10.1": {
+                "name": "pear-pear.php.net/PEAR",
+                "version": "1.10.1",
+                "version_normalized": "1.10.1.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/PEAR-1.10.1.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "ext-xml": "*",
+                    "pear-pear.php.net/archive_tar": ">=1.4.0.0",
+                    "pear-pear.php.net/console_getopt": ">=1.4.1.0",
+                    "pear-pear.php.net/structures_graph": ">=1.1.0.0",
+                    "pear-pear.php.net/xml_util": ">=1.3.0.0",
+                    "php": ">=5.4.0.0"
+                },
+                "conflict": {
+                    "pear-pear.php.net/pear_frontend_gtk": "<0.4.0.0",
+                    "pear-pear.php.net/pear_frontend_web": "<=0.4.0.0"
+                },
+                "replace": {
+                    "pear-pear/pear": "== 1.10.1.0",
+                    "pear/pear": "== 1.10.1.0"
                 },
                 "type": "pear-library",
                 "autoload": {
