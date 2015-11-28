@@ -14851,6 +14851,48 @@
                 ]
             }
         },
+        "rmm5t/jquery-timeago": {
+            "dev-composer": {
+                "name": "rmm5t/jquery-timeago",
+                "version": "dev-composer",
+                "version_normalized": "dev-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/jquery-timeago.git",
+                    "reference": "43c1749a909862d473b11c223776088ea749f3d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/jquery-timeago/zipball/43c1749a909862d473b11c223776088ea749f3d3",
+                    "reference": "43c1749a909862d473b11c223776088ea749f3d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "time": "2015-11-28 11:16:15",
+                "type": "component",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ryan McGeary",
+                        "email": "ryan@mcgeary.org"
+                    }
+                ],
+                "description": "jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. \"4 minutes ago\" or \"about 1 day ago\").",
+                "homepage": "http://timeago.yarp.com/",
+                "keywords": [
+                    "microformat",
+                    "time"
+                ],
+                "support": {
+                    "issues": "https://github.com/rmm5t/jquery-timeago/issues",
+                    "source": "https://github.com/glensc/jquery-timeago/tree/composer"
+                }
+            }
+        },
         "sphinx/php-sphinxapi": {
             "2.0.1": {
                 "name": "sphinx/php-sphinxapi",
