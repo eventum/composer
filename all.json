@@ -14872,6 +14872,13 @@
                 },
                 "time": "2015-11-28 11:16:15",
                 "type": "component",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "chosen.jquery.js"
+                        ]
+                    }
+                },
                 "license": [
                     "MIT"
                 ],
