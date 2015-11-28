@@ -183,6 +183,57 @@
                 }
             }
         },
+        "dropbox/zxcvbn": {
+            "dev-composer": {
+                "name": "dropbox/zxcvbn",
+                "version": "dev-composer",
+                "version_normalized": "dev-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/zxcvbn.git",
+                    "reference": "247ace1a31fcc36244274a016f8b373ff1b7666d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/zxcvbn/zipball/247ace1a31fcc36244274a016f8b373ff1b7666d",
+                    "reference": "247ace1a31fcc36244274a016f8b373ff1b7666d",
+                    "shasum": ""
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                },
+                "time": "2015-10-16 17:32:37",
+                "type": "component",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dan Wheeler"
+                    }
+                ],
+                "description": "realistic password strength estimation",
+                "homepage": "https://github.com/dropbox/zxcvbn",
+                "keywords": [
+                    "authentication",
+                    "bruteforce",
+                    "cracking",
+                    "entropy",
+                    "estimation",
+                    "meter",
+                    "passphrase",
+                    "password",
+                    "pattern",
+                    "quality",
+                    "scoring",
+                    "security",
+                    "strength"
+                ],
+                "support": {
+                    "source": "https://github.com/glensc/zxcvbn/tree/composer"
+                }
+            }
+        },
         "enyo/dropzone": {
             "4.0.1": {
                 "name": "enyo/dropzone",
