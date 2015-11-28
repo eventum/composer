@@ -1,3 +1,3 @@
 /satis/
-# ignore /dist/ on this branch, see 'repo' branch for actual contents
+# ignore /dist/ on this branch, see 'gh-pages' branch for actual contents
 /dist/
