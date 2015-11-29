@@ -516,7 +516,7 @@
                 ]
             }
         },
-        "pear-pear.php.net/Archive_Tar": {
+        "pear-pear.php.net/archive_tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
                 "version": "0.10-b1",
@@ -1238,7 +1238,7 @@
                 "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
             }
         },
-        "pear-pear.php.net/Auth_SASL": {
+        "pear-pear.php.net/auth_sasl": {
             "1.0.0": {
                 "name": "pear-pear.php.net/Auth_SASL",
                 "version": "1.0.0",
@@ -1451,7 +1451,7 @@
                 "description": "Provides code to generate responses to common SASL mechanisms, including:\n- Digest-MD5\n- Cram-MD5\n- Plain\n- Anonymous\n- Login (Pseudo mechanism)\n- SCRAM"
             }
         },
-        "pear-pear.php.net/Console_Getopt": {
+        "pear-pear.php.net/console_getopt": {
             "0.11": {
                 "name": "pear-pear.php.net/Console_Getopt",
                 "version": "0.11",
@@ -1751,7 +1751,7 @@
                 "description": "This is a PHP implementation of \"getopt\" supporting both\nshort and long options."
             }
         },
-        "pear-pear.php.net/DB": {
+        "pear-pear.php.net/db": {
             "1.2": {
                 "name": "pear-pear.php.net/DB",
                 "version": "1.2",
@@ -3233,7 +3233,7 @@
                 "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
             }
         },
-        "pear-pear.php.net/File": {
+        "pear-pear.php.net/file": {
             "1.4.0": {
                 "name": "pear-pear.php.net/File",
                 "version": "1.4.0",
@@ -3251,6 +3251,43 @@
                 "replace": {
                     "pear-pear/file": "== 1.4.0.0",
                     "pear/file": "== 1.4.0.0"
+                },
+                "suggest": {
+                    "*-pear-pear.php.net/File_CSV": "*",
+                    "*-pear-pear.php.net/File_Util": "*"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP"
+                ],
+                "description": "Provides easy access to read/write to files along with\nsome common routines to deal with paths."
+            },
+            "1.4.0alpha1": {
+                "name": "pear-pear.php.net/File",
+                "version": "1.4.0alpha1",
+                "version_normalized": "1.4.0.0-alpha1",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/File-1.4.0alpha1.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "pear-pear.php.net/pear": ">=1.5.3.0",
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/file": "== 1.4.0.0-alpha1",
+                    "pear/file": "== 1.4.0.0-alpha1"
                 },
                 "suggest": {
                     "*-pear-pear.php.net/File_CSV": "*",
@@ -3307,7 +3344,7 @@
                 "description": "Provides easy access to read/write to files along with\nsome common routines to deal with paths."
             }
         },
-        "pear-pear.php.net/File_Util": {
+        "pear-pear.php.net/file_util": {
             "1.0.0": {
                 "name": "pear-pear.php.net/File_Util",
                 "version": "1.0.0",
@@ -3376,7 +3413,7 @@
                 "description": "Common file and directory utility functions.\n  Path handling, temp dir/file, sorting of files, listDirs, isIncludable and more"
             }
         },
-        "pear-pear.php.net/Mail": {
+        "pear-pear.php.net/mail": {
             "1.0": {
                 "name": "pear-pear.php.net/Mail",
                 "version": "1.0",
@@ -4145,7 +4182,7 @@
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             }
         },
-        "pear-pear.php.net/Mail_Mime": {
+        "pear-pear.php.net/mail_mime": {
             "1.0": {
                 "name": "pear-pear.php.net/Mail_Mime",
                 "version": "1.0",
@@ -5415,7 +5452,7 @@
                 "description": "Mail_Mime provides classes to deal with the creation and manipulation of MIME messages.\nIt allows people to create e-mail messages consisting of:\n* Text Parts\n* HTML Parts\n* Inline HTML Images\n* Attachments\n* Attached messages\n\nIt supports big messages, base64 and quoted-printable encodings and\nnon-ASCII characters in filenames, subjects, recipients, etc. encoded\nusing RFC2047 and/or RFC2231."
             }
         },
-        "pear-pear.php.net/Mail_mimeDecode": {
+        "pear-pear.php.net/mail_mimedecode": {
             "0.1.0": {
                 "name": "pear-pear.php.net/Mail_mimeDecode",
                 "version": "0.1.0",
@@ -5673,7 +5710,7 @@
                 "description": "Provides a class to deal with the decoding and interpreting of mime messages.\n This package used to be part of the Mail_Mime package, but has been split off."
             }
         },
-        "pear-pear.php.net/Math_Stats": {
+        "pear-pear.php.net/math_stats": {
             "0.8.0": {
                 "name": "pear-pear.php.net/Math_Stats",
                 "version": "0.8.0",
@@ -5961,7 +5998,7 @@
                 "description": "Package to calculate statistical parameters of numerical arrays\nof data. The data can be in a simple numerical array, or in a \ncummulative numerical array. A cummulative array, has the value\nas the index and the number of repeats as the value for the\narray item, e.g. $data = array(3=&gt;4, 2.3=&gt;5, 1.25=&gt;6, 0.5=&gt;3).\nNulls can be rejected, ignored or handled as zero values."
             }
         },
-        "pear-pear.php.net/Net_LDAP2": {
+        "pear-pear.php.net/net_ldap2": {
             "2.0.0": {
                 "name": "pear-pear.php.net/Net_LDAP2",
                 "version": "2.0.0",
@@ -6589,7 +6626,7 @@
                 "description": "Net_LDAP2 is the successor of Net_LDAP which is a clone of Perls Net::LDAP\n                object interface to directory servers. It does contain most of Net::LDAPs\n                features but has some own too.\n                 With Net_LDAP2 you have:\n                 * A simple object-oriented interface to connections, searches entries and filters.\n                 * Support for TLS and LDAP v3.\n                 * Simple modification, deletion and creation of LDAP entries.\n                 * Support for schema handling.\n\n                 Net_LDAP2 layers itself on top of PHP's existing ldap extensions."
             }
         },
-        "pear-pear.php.net/Net_POP3": {
+        "pear-pear.php.net/net_pop3": {
             "1.0": {
                 "name": "pear-pear.php.net/Net_POP3",
                 "version": "1.0",
@@ -6959,7 +6996,7 @@
                 "description": "Provides a POP3 class to access POP3 server. Support all POP3 commands\n  including UIDL listings, APOP authentication, DIGEST-MD5 and CRAM-MD5\n  using optional Auth_SASL package"
             }
         },
-        "pear-pear.php.net/Net_SmartIRC": {
+        "pear-pear.php.net/net_smartirc": {
             "0.5.0": {
                 "name": "pear-pear.php.net/Net_SmartIRC",
                 "version": "0.5.0",
@@ -7473,7 +7510,7 @@
                 "description": "SmartIRC is your go-to library for interfacing with IRC networks. All you need is PHP 5.3 or later.\n\nFull feature list:\n-------------------------------------\n- Fully object-oriented programmed\n- Your bot class can be inline in the same file you call SmartIRC from, or included as an external file\n- Every received IRC message is parsed into an object you can easily get information from\n  (containing the following info: rawmessage, from, nick, ident, host, type, params, message, channel)\n- Make your bots using Action Handlers and Time Handlers, which register custom callbacks when various events happen or on time intervals, respectively – or, extend the Net_SmartIRC class to add (or override) handlers directly using individual server message types\n- Flood protection which uses a send buffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)\n- Nick collision detection and handling\n- Auto-retry during initial connection attempt\n- Auto-reconnect if connection is lost, which will re-join to the channels it was in before\n- Debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)\n- Supports PHP as old as 5.3.0\n- Channel syncing (tracking of users/modes/topic etc in objects)\n- Customizable CTCP VERSION reply"
             }
         },
-        "pear-pear.php.net/Net_SMTP": {
+        "pear-pear.php.net/net_smtp": {
             "1.0": {
                 "name": "pear-pear.php.net/Net_SMTP",
                 "version": "1.0",
@@ -8555,7 +8592,7 @@
                 "description": "Provides an implementation of the SMTP protocol using PEAR's Net_Socket class."
             }
         },
-        "pear-pear.php.net/Net_Socket": {
+        "pear-pear.php.net/net_socket": {
             "1.0.1": {
                 "name": "pear-pear.php.net/Net_Socket",
                 "version": "1.0.1",
@@ -8973,7 +9010,7 @@
                 "description": "Net_Socket is a class interface to TCP sockets.  It provides blocking\n  and non-blocking operation, with different reading and writing modes\n  (byte-wise, block-wise, line-wise and special formats like network\n  byte-order ip addresses)."
             }
         },
-        "pear-pear.php.net/Net_URL": {
+        "pear-pear.php.net/net_url": {
             "1.0": {
                 "name": "pear-pear.php.net/Net_URL",
                 "version": "1.0",
@@ -9426,7 +9463,7 @@
                 "description": "Provides easy parsing of URLs and their constituent parts."
             }
         },
-        "pear-pear.php.net/PEAR": {
+        "pear-pear.php.net/pear": {
             "0.10": {
                 "name": "pear-pear.php.net/PEAR",
                 "version": "0.10",
@@ -12854,7 +12891,7 @@
                 "description": "The PEAR package contains:\n * the PEAR installer, for creating, distributing\n   and installing packages\n * the PEAR_Exception PHP5 error handling mechanism\n * the PEAR_ErrorStack advanced error handling mechanism\n * the PEAR_Error error handling mechanism\n * the OS_Guess class for retrieving info about the OS\n   where PHP is running on\n * the System class for quick handling of common operations\n   with files and directories\n * the PEAR base class\n  Features in a nutshell:\n  * full support for channels\n  * pre-download dependency validation\n  * new package.xml 2.0 format allows tremendous flexibility while maintaining BC\n  * support for optional dependency groups and limited support for sub-packaging\n  * robust dependency support\n  * full dependency validation on uninstall\n  * remote install for hosts with only ftp access - no more problems with\n    restricted host installation\n  * full support for mirroring\n  * support for bundling several packages into a single tarball\n  * support for static dependencies on a url-based package\n  * support for custom file roles and installation tasks"
             }
         },
-        "pear-pear.php.net/Structures_Graph": {
+        "pear-pear.php.net/structures_graph": {
             "1.0.2": {
                 "name": "pear-pear.php.net/Structures_Graph",
                 "version": "1.0.2",
@@ -13011,7 +13048,7 @@
                 "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
             }
         },
-        "pear-pear.php.net/Text_Diff": {
+        "pear-pear.php.net/text_diff": {
             "0.0.2": {
                 "name": "pear-pear.php.net/Text_Diff",
                 "version": "0.0.2",
@@ -13509,7 +13546,7 @@
                 "description": "This package provides a text-based diff engine and renderers for multiple diff output formats."
             }
         },
-        "pear-pear.php.net/XML_RPC": {
+        "pear-pear.php.net/xml_rpc": {
             "1.0.2": {
                 "name": "pear-pear.php.net/XML_RPC",
                 "version": "1.0.2",
@@ -14660,7 +14697,7 @@
                 "description": "A PEAR-ified version of Useful Inc's XML-RPC for PHP.\n\nIt has support for HTTP/HTTPS transport, proxies and authentication."
             }
         },
-        "pear-pear.php.net/XML_Util": {
+        "pear-pear.php.net/xml_util": {
             "1.2.0": {
                 "name": "pear-pear.php.net/XML_Util",
                 "version": "1.2.0",
@@ -14678,6 +14715,102 @@
                 "replace": {
                     "pear-pear/xml_util": "== 1.2.0.0",
                     "pear/xml_util": "== 1.2.0.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD License"
+                ],
+                "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
+            },
+            "1.2.0RC1": {
+                "name": "pear-pear.php.net/XML_Util",
+                "version": "1.2.0RC1",
+                "version_normalized": "1.2.0.0-RC1",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/XML_Util-1.2.0RC1.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/xml_util": "== 1.2.0.0-RC1",
+                    "pear/xml_util": "== 1.2.0.0-RC1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD License"
+                ],
+                "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
+            },
+            "1.2.0a1": {
+                "name": "pear-pear.php.net/XML_Util",
+                "version": "1.2.0a1",
+                "version_normalized": "1.2.0.0-alpha1",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/XML_Util-1.2.0a1.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/xml_util": "== 1.2.0.0-alpha1",
+                    "pear/xml_util": "== 1.2.0.0-alpha1"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD License"
+                ],
+                "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
+            },
+            "1.2.0a2": {
+                "name": "pear-pear.php.net/XML_Util",
+                "version": "1.2.0a2",
+                "version_normalized": "1.2.0.0-alpha2",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/XML_Util-1.2.0a2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/xml_util": "== 1.2.0.0-alpha2",
+                    "pear/xml_util": "== 1.2.0.0-alpha2"
                 },
                 "type": "pear-library",
                 "autoload": {
