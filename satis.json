@@ -34,6 +34,7 @@
 			"type": "package",
 			"package": {
 				"name": "php-gettext/php-gettext",
+				"description": "Pure PHP Implementation of gettext",
 				"version": "1.0.11",
 				"license": [
 					"GPL-2.0", "GPL-3.0"
