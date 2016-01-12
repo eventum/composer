@@ -1,5 +1,47 @@
 {
     "packages": {
+        "bgrins/filereader.js": {
+            "dev-composer": {
+                "name": "bgrins/filereader.js",
+                "version": "dev-composer",
+                "version_normalized": "dev-composer",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/filereader.js.git",
+                    "reference": "dd7886cc6f6b4f852d76a300795e3caca06fb1db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/filereader.js/zipball/dd7886cc6f6b4f852d76a300795e3caca06fb1db",
+                    "reference": "dd7886cc6f6b4f852d76a300795e3caca06fb1db",
+                    "shasum": ""
+                },
+                "time": "2016-01-12 21:48:16",
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "filereader.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Brian Grinstead",
+                        "email": "briangrinstead@gmail.com"
+                    }
+                ],
+                "description": "A lightweight wrapper for the JavaScript FileReader interface",
+                "homepage": "http://bgrins.github.io/filereader.js/",
+                "support": {
+                    "issues": "https://github.com/bgrins/filereader.js/issues",
+                    "source": "https://github.com/glensc/filereader.js/tree/composer"
+                }
+            }
+        },
         "components/jquery-blockui": {
             "2.70": {
                 "name": "components/jquery-blockui",
@@ -14786,15 +14828,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/glensc/jquery-timeago.git",
-                    "reference": "91bd5202b26fd9eb3695a930277400e0bdf9603e"
+                    "reference": "dfeb9fb376fa13baefd44ed6c7e10d2fb1e5073f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/jquery-timeago/zipball/91bd5202b26fd9eb3695a930277400e0bdf9603e",
-                    "reference": "91bd5202b26fd9eb3695a930277400e0bdf9603e",
+                    "url": "https://api.github.com/repos/glensc/jquery-timeago/zipball/dfeb9fb376fa13baefd44ed6c7e10d2fb1e5073f",
+                    "reference": "dfeb9fb376fa13baefd44ed6c7e10d2fb1e5073f",
                     "shasum": ""
                 },
-                "time": "2015-11-28 22:27:31",
+                "require": {
+                    "components/jquery": ">=1.2.3"
+                },
+                "time": "2015-11-30 06:42:17",
                 "type": "library",
                 "extra": {
                     "component": {
