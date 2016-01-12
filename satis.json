@@ -121,6 +121,10 @@
 			"url": "https://github.com/glensc/jquery-timeago"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/filereader.js"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "phplot/phplot",
@@ -217,6 +221,7 @@
 	],
 	"require-dependencies": true,
 	"require": {
+		"bgrins/filereader.js": "*",
 		"components/jquery-blockui": "*@dev",
 		"components/jquery-chosen": "*",
 		"components/jquery-datatables": "*",
