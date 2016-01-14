@@ -14821,25 +14821,25 @@
             }
         },
         "rmm5t/jquery-timeago": {
-            "dev-composer": {
+            "dev-master": {
                 "name": "rmm5t/jquery-timeago",
-                "version": "dev-composer",
-                "version_normalized": "dev-composer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/glensc/jquery-timeago.git",
-                    "reference": "dfeb9fb376fa13baefd44ed6c7e10d2fb1e5073f"
+                    "url": "https://github.com/rmm5t/jquery-timeago.git",
+                    "reference": "61669708f0ff1ec5b3f080ddb4e2984875a3da53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/jquery-timeago/zipball/dfeb9fb376fa13baefd44ed6c7e10d2fb1e5073f",
-                    "reference": "dfeb9fb376fa13baefd44ed6c7e10d2fb1e5073f",
+                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/61669708f0ff1ec5b3f080ddb4e2984875a3da53",
+                    "reference": "61669708f0ff1ec5b3f080ddb4e2984875a3da53",
                     "shasum": ""
                 },
                 "require": {
                     "components/jquery": ">=1.2.3"
                 },
-                "time": "2015-11-30 06:42:17",
+                "time": "2016-01-12 23:14:25",
                 "type": "library",
                 "extra": {
                     "component": {
@@ -14868,7 +14868,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/rmm5t/jquery-timeago/issues",
-                    "source": "https://github.com/glensc/jquery-timeago/tree/composer"
+                    "source": "https://github.com/rmm5t/jquery-timeago/tree/master"
                 }
             }
         },
