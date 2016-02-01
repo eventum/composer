@@ -2,6 +2,7 @@
 	"name": "eventum",
 	"description": "Eventum Composer Repository",
 	"homepage": "https://eventum.github.io/composer/",
+	"include-filename": "all.json",
 	"repositories": [
 		{
 			"type": "pear",
