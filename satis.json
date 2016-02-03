@@ -116,6 +116,10 @@
 			"url": "https://github.com/glensc/filereader.js"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/php-encryption.git"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "phplot/phplot",
@@ -210,6 +214,7 @@
 		"components/jquery-blockui": "*@dev",
 		"components/jquery-chosen": "*",
 		"components/jquery-datatables": "*",
+		"defuse/php-encryption": "dev-v1.2.1-php-5.3",
 		"dropbox/zxcvbn": "*",
 		"enyo/dropzone":"*",
 		"fonts/liberation": "*",
