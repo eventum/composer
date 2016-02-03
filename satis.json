@@ -10,10 +10,6 @@
 			"vendor-alias": "pear"
 		},
 		{
-			"type": "vcs",
-			"url": "https://github.com/eventum/rpc"
-		},
-		{
 			"type": "package",
 			"package": {
 				"name": "sphinx/php-sphinxapi",
