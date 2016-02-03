@@ -233,7 +233,7 @@
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
 		"pear-pear.php.net/File_Util": "*",
-		"pear-pear.php.net/Mail": "*",
+		"pear-pear.php.net/Mail": "<1.3.0",
 		"pear-pear.php.net/Mail_Mime": "*",
 		"pear-pear.php.net/Mail_mimeDecode": "*",
 		"pear-pear.php.net/Math_Stats": "*",
