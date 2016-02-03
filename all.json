@@ -219,6 +219,56 @@
                 }
             }
         },
+        "defuse/php-encryption": {
+            "dev-v1.2.1-php-5.3": {
+                "name": "defuse/php-encryption",
+                "version": "dev-v1.2.1-php-5.3",
+                "version_normalized": "dev-v1.2.1-php-5.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/php-encryption.git",
+                    "reference": "e2e307845cdc448570551f19952a4507454a9033"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/php-encryption/zipball/e2e307845cdc448570551f19952a4507454a9033",
+                    "reference": "e2e307845cdc448570551f19952a4507454a9033",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-mcrypt": "*",
+                    "ext-openssl": "*",
+                    "php": ">=5.3.0"
+                },
+                "time": "2016-02-03 19:30:56",
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "Crypto.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Hornby",
+                        "email": "havoc@defuse.ca"
+                    }
+                ],
+                "description": "Secure PHP Encryption Library",
+                "keywords": [
+                    "AES",
+                    "cipher",
+                    "encryption",
+                    "mcrypt",
+                    "security"
+                ],
+                "support": {
+                    "source": "https://github.com/glensc/php-encryption/tree/v1.2.1-php-5.3"
+                }
+            }
+        },
         "dropbox/zxcvbn": {
             "dev-composer": {
                 "name": "dropbox/zxcvbn",
