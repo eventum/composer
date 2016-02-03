@@ -75,9 +75,6 @@
 							"chosen.css"
 						]
 					}
-				},
-				"require": {
-					"robloach/component-installer": "*"
 				}
 			}
 		},
@@ -99,9 +96,6 @@
 						"scripts": [ "index.js", "dist/dropzone.js" ],
 						"styles": [ "dist/basic.css" ]
 					}
-				},
-				"require": {
-					"robloach/component-installer": "*"
 				}
 			}
 		},
@@ -163,9 +157,6 @@
 					"component": {
 						"scripts": [ "dist/autosize.js" ]
 					}
-				},
-				"require": {
-					"robloach/component-installer": "*"
 				}
 			}
 		},
@@ -209,9 +200,6 @@
 							"media/images/*.png"
 						]
 					}
-				},
-				"require": {
-					"robloach/component-installer": "*"
 				}
 			}
 		}
