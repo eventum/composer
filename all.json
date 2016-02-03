@@ -167,9 +167,6 @@
                     "reference": null,
                     "shasum": null
                 },
-                "require": {
-                    "robloach/component-installer": "*"
-                },
                 "type": "component",
                 "extra": {
                     "component": {
@@ -200,9 +197,6 @@
                     "url": "https://github.com/DataTables/DataTables/archive/1.10.4.zip",
                     "reference": null,
                     "shasum": null
-                },
-                "require": {
-                    "robloach/component-installer": "*"
                 },
                 "type": "component",
                 "extra": {
@@ -287,9 +281,6 @@
                     "reference": null,
                     "shasum": null
                 },
-                "require": {
-                    "robloach/component-installer": "*"
-                },
                 "type": "component",
                 "extra": {
                     "component": {
@@ -334,9 +325,6 @@
                     "url": "https://github.com/jackmoore/autosize/archive/3.0.13.zip",
                     "reference": null,
                     "shasum": null
-                },
-                "require": {
-                    "robloach/component-installer": "*"
                 },
                 "type": "component",
                 "extra": {
