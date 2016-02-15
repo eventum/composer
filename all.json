@@ -14990,32 +14990,33 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/glensc/zend-mail.git",
-                    "reference": "6034313ff442c7a2fe963dfc1cb5d5ddc2996851"
+                    "reference": "755b22727a126608611b6a58c289ad6744db21a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/zend-mail/zipball/6034313ff442c7a2fe963dfc1cb5d5ddc2996851",
-                    "reference": "6034313ff442c7a2fe963dfc1cb5d5ddc2996851",
+                    "url": "https://api.github.com/repos/glensc/zend-mail/zipball/755b22727a126608611b6a58c289ad6744db21a9",
+                    "reference": "755b22727a126608611b6a58c289ad6744db21a9",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.3.23",
-                    "zendframework/zend-loader": "self.version",
-                    "zendframework/zend-mime": "self.version",
-                    "zendframework/zend-stdlib": "self.version",
-                    "zendframework/zend-validator": "self.version"
+                    "zendframework/zend-loader": "~2.4.0",
+                    "zendframework/zend-mime": "~2.4.0",
+                    "zendframework/zend-stdlib": "~2.4.0",
+                    "zendframework/zend-validator": "~2.4.0"
                 },
                 "require-dev": {
                     "fabpot/php-cs-fixer": "1.7.*",
                     "phpunit/phpunit": "~4.0",
                     "satooshi/php-coveralls": "dev-master",
-                    "zendframework/zend-servicemanager": "self.version"
+                    "zendframework/zend-config": "~2.4.0",
+                    "zendframework/zend-servicemanager": "~2.4.0"
                 },
                 "suggest": {
                     "zendframework/zend-crypt": "Crammd5 support in SMTP Auth",
                     "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
                 },
-                "time": "2016-02-15 09:46:18",
+                "time": "2016-02-15 09:51:30",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
