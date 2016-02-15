@@ -14981,6 +14981,71 @@
                     "GPL-2.0"
                 ]
             }
+        },
+        "zendframework/zend-mail": {
+            "dev-develop-2.4": {
+                "name": "zendframework/zend-mail",
+                "version": "dev-develop-2.4",
+                "version_normalized": "dev-develop-2.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/zend-mail.git",
+                    "reference": "9b119159a2e24a03e7ca8864b3e61cfce1d60d29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/zend-mail/zipball/9b119159a2e24a03e7ca8864b3e61cfce1d60d29",
+                    "reference": "9b119159a2e24a03e7ca8864b3e61cfce1d60d29",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.23",
+                    "zendframework/zend-crypt": "self.version",
+                    "zendframework/zend-loader": "self.version",
+                    "zendframework/zend-mime": "self.version",
+                    "zendframework/zend-stdlib": "self.version",
+                    "zendframework/zend-validator": "self.version"
+                },
+                "require-dev": {
+                    "fabpot/php-cs-fixer": "1.7.*",
+                    "phpunit/phpunit": "~4.0",
+                    "satooshi/php-coveralls": "dev-master",
+                    "zendframework/zend-servicemanager": "self.version"
+                },
+                "suggest": {
+                    "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
+                },
+                "time": "2016-02-15 09:16:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev",
+                        "dev-develop": "2.5-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Mail\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ZendTest\\Mail\\": "test/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+                "homepage": "https://github.com/zendframework/zend-mail",
+                "keywords": [
+                    "mail",
+                    "zf2"
+                ],
+                "support": {
+                    "source": "https://github.com/glensc/zend-mail/tree/develop-2.4"
+                }
+            }
         }
     }
 }
