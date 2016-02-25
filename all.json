@@ -15044,6 +15044,61 @@
                 ]
             }
         },
+        "willdurand/email-reply-parser": {
+            "dev-set-sig-regex": {
+                "name": "willdurand/email-reply-parser",
+                "version": "dev-set-sig-regex",
+                "version_normalized": "dev-set-sig-regex",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/EmailReplyParser.git",
+                    "reference": "bed67e0b55877713a3d714f07a822d9af9e993b7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/EmailReplyParser/zipball/bed67e0b55877713a3d714f07a822d9af9e993b7",
+                    "reference": "bed67e0b55877713a3d714f07a822d9af9e993b7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "time": "2016-02-25 05:01:15",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "EmailReplyParser\\": "src/EmailReplyParser"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "EmailReplyParser\\Tests\\": "tests/EmailReplyParser/Tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "William Durand",
+                        "email": "william.durand1@gmail.com"
+                    }
+                ],
+                "description": "Port of the cool GitHub's EmailReplyParser library in PHP 5.3",
+                "keywords": [
+                    "email",
+                    "reply-parser"
+                ],
+                "support": {
+                    "source": "https://github.com/glensc/EmailReplyParser/tree/set-sig-regex"
+                }
+            }
+        },
         "zendframework/zend-mail": {
             "dev-develop-2.4": {
                 "name": "zendframework/zend-mail",
