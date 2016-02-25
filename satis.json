@@ -14,6 +14,10 @@
 			"url": "https://github.com/glensc/zend-mail"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/EmailReplyParser"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "sphinx/php-sphinxapi",
@@ -243,6 +247,7 @@
 		"phplot/phplot": "*",
 		"rmm5t/jquery-timeago": "~1.4",
 		"sphinx/php-sphinxapi": "*",
+		"willdurand/email-reply-parser": "dev-set-sig-regex",
 		"zendframework/zend-mail": "dev-develop-2.4"
 	}
 }
