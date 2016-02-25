@@ -1109,6 +1109,68 @@
                     "New BSD License"
                 ],
                 "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+            },
+            "1.4.1": {
+                "name": "pear-pear.php.net/Archive_Tar",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Archive_Tar-1.4.1.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-pear/archive_tar": "== 1.4.1.0",
+                    "pear/archive_tar": "== 1.4.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "New BSD License"
+                ],
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+            },
+            "1.4.2": {
+                "name": "pear-pear.php.net/Archive_Tar",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "dist": {
+                    "type": "file",
+                    "url": "http://pear.php.net/get/Archive_Tar-1.4.2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.2.0.0"
+                },
+                "replace": {
+                    "pear-pear/archive_tar": "== 1.4.2.0",
+                    "pear/archive_tar": "== 1.4.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "New BSD License"
+                ],
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
             }
         },
         "pear-pear.php.net/auth_sasl": {
