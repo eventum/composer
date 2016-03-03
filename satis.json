@@ -15,6 +15,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "https://github.com/eventum/eventum"
+		},
+		{
+			"type": "vcs",
 			"url": "https://github.com/glensc/EmailReplyParser"
 		},
 		{
@@ -225,6 +229,7 @@
 		"defuse/php-encryption": "dev-v1.2.1-php-5.3",
 		"dropbox/zxcvbn": "*",
 		"enyo/dropzone":"*",
+		"eventum/eventum": "~3.0.2",
 		"fonts/liberation": "*",
 		"jackmoore/autosize":"*",
 		"pear-pear.php.net/Auth_SASL": "*",
