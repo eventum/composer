@@ -229,7 +229,7 @@
 		"defuse/php-encryption": "dev-v1.2.1-php-5.3",
 		"dropbox/zxcvbn": "*",
 		"enyo/dropzone":"*",
-		"eventum/eventum": "~3.0.2",
+		"eventum/eventum": "~3.0.9",
 		"fonts/liberation": "*",
 		"jackmoore/autosize":"*",
 		"pear-pear.php.net/Auth_SASL": "*",
