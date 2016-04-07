@@ -6,7 +6,7 @@
 	"repositories": [
 		{
 			"type": "pear",
-			"url": "http://pear.php.net",
+			"url": "https://pear.php.net",
 			"vendor-alias": "pear"
 		},
 		{
@@ -30,7 +30,7 @@
 					"GPL-2.0"
 				],
 				"dist": {
-					"url": "http://sphinxsearch.googlecode.com/svn/tags/REL_2_0_1/api/sphinxapi.php",
+					"url": "https://sphinxsearch.googlecode.com/svn/tags/REL_2_0_1/api/sphinxapi.php",
 					"shasum": "2b1274cbbc4b2be2aba2cb90dc5daf2036df0f49",
 					"type": "file"
 				},
