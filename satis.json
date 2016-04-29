@@ -138,7 +138,7 @@
 				"type": "library",
 				"version": "v6.1.0",
 				"dist": {
-					"url": "http://downloads.sourceforge.net/phplot/phplot-6.1.0.tar.gz",
+					"url": "https://downloads.sourceforge.net/phplot/phplot-6.1.0.tar.gz",
 					"type": "tar"
 				},
 				"description": "PHPlot - Create charts in PHP",
