@@ -22,6 +22,10 @@
 			"url": "https://github.com/glensc/EmailReplyParser"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/monolog-desktop-extensions"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "sphinx/php-sphinxapi",
@@ -232,6 +236,7 @@
 		"eventum/eventum": "~3.0.9",
 		"fonts/liberation": "*",
 		"jackmoore/autosize":"*",
+		"michael-bouvy/monolog-desktop-extensions": "dev-patch-1",
 		"pear-pear.php.net/Auth_SASL": "*",
 		"pear-pear.php.net/DB": "*",
 		"pear-pear.php.net/File_Util": "*",
