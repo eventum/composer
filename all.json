@@ -908,6 +908,49 @@
                 ]
             }
         },
+        "michael-bouvy/monolog-desktop-extensions": {
+            "dev-patch-1": {
+                "name": "michael-bouvy/monolog-desktop-extensions",
+                "version": "dev-patch-1",
+                "version_normalized": "dev-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/monolog-desktop-extensions.git",
+                    "reference": "4d8ff6bf72a5e20474d1866050159a083a3ebc16"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/monolog-desktop-extensions/zipball/4d8ff6bf72a5e20474d1866050159a083a3ebc16",
+                    "reference": "4d8ff6bf72a5e20474d1866050159a083a3ebc16",
+                    "shasum": ""
+                },
+                "require": {
+                    "monolog/monolog": "^1.7",
+                    "php": "^5.4",
+                    "symfony/process": "^2.4"
+                },
+                "time": "2016-04-29 06:38:39",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Mibou": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael BOUVY",
+                        "email": "michael.bouvy@gmail.com"
+                    }
+                ],
+                "description": "Monolog extensions (handlers / formatters) for desktop notifications (notify-send, Growl ...).",
+                "support": {
+                    "source": "https://github.com/glensc/monolog-desktop-extensions/tree/patch-1"
+                }
+            }
+        },
         "pear-pear.php.net/archive_tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
