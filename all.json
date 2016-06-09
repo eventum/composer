@@ -908,49 +908,6 @@
                 ]
             }
         },
-        "michael-bouvy/monolog-desktop-extensions": {
-            "dev-patch-1": {
-                "name": "michael-bouvy/monolog-desktop-extensions",
-                "version": "dev-patch-1",
-                "version_normalized": "dev-patch-1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/glensc/monolog-desktop-extensions.git",
-                    "reference": "4d8ff6bf72a5e20474d1866050159a083a3ebc16"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/monolog-desktop-extensions/zipball/4d8ff6bf72a5e20474d1866050159a083a3ebc16",
-                    "reference": "4d8ff6bf72a5e20474d1866050159a083a3ebc16",
-                    "shasum": ""
-                },
-                "require": {
-                    "monolog/monolog": "^1.7",
-                    "php": "^5.4",
-                    "symfony/process": "^2.4"
-                },
-                "time": "2016-04-29 06:38:39",
-                "type": "library",
-                "autoload": {
-                    "psr-0": {
-                        "Mibou": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Michael BOUVY",
-                        "email": "michael.bouvy@gmail.com"
-                    }
-                ],
-                "description": "Monolog extensions (handlers / formatters) for desktop notifications (notify-send, Growl ...).",
-                "support": {
-                    "source": "https://github.com/glensc/monolog-desktop-extensions/tree/patch-1"
-                }
-            }
-        },
         "pear-pear.php.net/archive_tar": {
             "0.10-b1": {
                 "name": "pear-pear.php.net/Archive_Tar",
@@ -9073,6 +9030,38 @@
                 "replace": {
                     "pear-pear/net_smtp": "== 1.7.1.0",
                     "pear/net_smtp": "== 1.7.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP License"
+                ],
+                "description": "Provides an implementation of the SMTP protocol using PEAR's Net_Socket class."
+            },
+            "1.7.2": {
+                "name": "pear-pear.php.net/Net_SMTP",
+                "version": "1.7.2",
+                "version_normalized": "1.7.2.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Net_SMTP-1.7.2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/net_socket": ">=1.0.7.0",
+                    "php": ">=5.4.0.0"
+                },
+                "replace": {
+                    "pear-pear/net_smtp": "== 1.7.2.0",
+                    "pear/net_smtp": "== 1.7.2.0"
                 },
                 "type": "pear-library",
                 "autoload": {
