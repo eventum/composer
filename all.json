@@ -15630,7 +15630,7 @@
                 "version_normalized": "2.0.1.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://github.com/sphinxsearch/sphinx/raw/3b4cbb2b20e03e4d04db0695947441c62034aeec/api/sphinxapi.php",
+                    "url": "https://raw.githubusercontent.com/sphinxsearch/sphinx/3b4cbb2b20e03e4d04db0695947441c62034aeec/api/sphinxapi.php",
                     "reference": null,
                     "shasum": "2b1274cbbc4b2be2aba2cb90dc5daf2036df0f49"
                 },
