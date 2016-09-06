@@ -6162,6 +6162,38 @@
                     "BSD Style"
                 ],
                 "description": "Provides a class to deal with the decoding and interpreting of mime messages.\n This package used to be part of the Mail_Mime package, but has been split off."
+            },
+            "1.5.6": {
+                "name": "pear-pear.php.net/Mail_mimeDecode",
+                "version": "1.5.6",
+                "version_normalized": "1.5.6.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Mail_mimeDecode-1.5.6.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/mail_mime": ">1.4.0.0",
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/mail_mimedecode": "== 1.5.6.0",
+                    "pear/mail_mimedecode": "== 1.5.6.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD Style"
+                ],
+                "description": "Provides a class to deal with the decoding and interpreting of mime messages.\n This package used to be part of the Mail_Mime package, but has been split off."
             }
         },
         "pear-pear.php.net/math_stats": {
