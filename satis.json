@@ -26,6 +26,10 @@
 			"url": "https://github.com/glensc/monolog-desktop-extensions"
 		},
 		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/zend-mail"
+		},
+		{
 			"type": "package",
 			"package": {
 				"name": "sphinx/php-sphinxapi",
@@ -247,10 +251,10 @@
 		"pear-pear.php.net/Net_LDAP2": "*",
 		"pear-pear.php.net/Net_POP3": "~1.3.8",
 		"pear-pear.php.net/Net_SMTP": "~1.6.3",
-		"pear-pear.php.net/Net_SmartIRC": "*",
+		"pear-pear.php.net/Net_SmartIRC": "~1.1.9",
 		"pear-pear.php.net/Net_Socket": "~1.0.14",
 		"pear-pear.php.net/Net_URL": "~1.0.15",
-		"pear-pear.php.net/PEAR": "*",
+		"pear-pear.php.net/PEAR": "~1.9.5",
 		"pear-pear.php.net/Text_Diff": "~1.2.1",
 		"pear-pear.php.net/XML_RPC": "~1.5.5",
 		"php-gettext/php-gettext": "~1.0.11",
