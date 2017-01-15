@@ -5,6 +5,9 @@
 	"include-filename": "all.json",
 	"repositories": [
 		{
+			"packagist.org": false
+		},
+		{
 			"type": "pear",
 			"url": "https://pear.php.net",
 			"vendor-alias": "pear"
