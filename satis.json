@@ -236,7 +236,7 @@
 		"components/jquery-datatables": "~1.10.4",
 		"defuse/php-encryption": "dev-v1.2.1-php-5.3",
 		"dropbox/zxcvbn": "*",
-		"enyo/dropzone":"~4.0.1",
+		"enyo/dropzone":"*",
 		"eventum/eventum": "^3.0.9",
 		"fonts/liberation": "*",
 		"jackmoore/autosize":"~3.0.13",
