@@ -190,6 +190,51 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "ichord/At.js",
+				"version": "1.5.3",
+				"license": [
+					"MIT"
+				],
+				"dist": {
+					"url": "https://github.com/ichord/At.js/archive/v1.5.3.zip",
+					"type": "zip"
+				},
+				"extra": {
+					"component": {
+						"scripts": [
+							"dist/js/jquery.atwho.js"
+						],
+						"styles": [
+							"dist/css/jquery.atwho.css"
+						]
+					}
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "ichord/Caret.js",
+				"version": "0.3.1",
+				"license": [
+					"MIT"
+				],
+				"dist": {
+					"url": "https://github.com/ichord/Caret.js/archive/v0.3.1.zip",
+					"type": "zip"
+				},
+				"extra": {
+					"component": {
+						"scripts": [
+							"src/jquery.caret.js"
+						]
+					}
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "fonts/liberation",
 				"version": "2.00.1",
 				"license": "OFL-1.1",
@@ -242,6 +287,8 @@
 		"enyo/dropzone":"*",
 		"eventum/eventum": "^3.0.9",
 		"fonts/liberation": "*",
+		"ichord/At.js": "~1.5.3",
+		"ichord/Caret.js": "~0.3.1",
 		"jackmoore/autosize":"~3.0.13",
 		"michael-bouvy/monolog-desktop-extensions": "dev-patch-1",
 		"pear-pear.php.net/Auth_SASL": "~1.0.6",
