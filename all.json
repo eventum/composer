@@ -2154,6 +2154,33 @@
                 ]
             }
         },
+        "ichord/at.js": {
+            "1.5.3": {
+                "name": "ichord/At.js",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/ichord/At.js/archive/v1.5.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "dist/js/jquery.atwho.js"
+                        ],
+                        "styles": [
+                            "dist/css/jquery.atwho.css"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ]
+            }
+        },
         "jackmoore/autosize": {
             "3.0.13": {
                 "name": "jackmoore/autosize",
