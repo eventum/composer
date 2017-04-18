@@ -2342,7 +2342,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2373,7 +2373,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2404,7 +2404,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2435,7 +2435,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2466,7 +2466,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2497,7 +2497,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2528,7 +2528,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             },
@@ -2559,7 +2559,7 @@
                     "/"
                 ],
                 "license": [
-                    "BSD Style"
+                    "New BSD License"
                 ],
                 "description": "PEAR's Mail package defines an interface for implementing mailers under the PEAR hierarchy.  It also provides supporting functions useful to multiple mailer backends.  Currently supported backends include: PHP's native mail() function, sendmail, and SMTP.  This package also provides a RFC822 email address list validation utility class."
             }
@@ -3452,7 +3452,7 @@
                     "/"
                 ],
                 "license": [
-                    "PHP License"
+                    "BSD-2-Clause"
                 ],
                 "description": "Net_Socket is a class interface to TCP sockets.  It provides blocking\n  and non-blocking operation, with different reading and writing modes\n  (byte-wise, block-wise, line-wise and special formats like network\n  byte-order ip addresses)."
             }
@@ -3550,6 +3550,37 @@
                 "replace": {
                     "pear-pear/text_diff": "== 1.2.1.0",
                     "pear/text_diff": "== 1.2.1.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL"
+                ],
+                "description": "This package provides a text-based diff engine and renderers for multiple diff output formats."
+            },
+            "1.2.2": {
+                "name": "pear-pear.php.net/Text_Diff",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Text_Diff-1.2.2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/text_diff": "== 1.2.2.0",
+                    "pear/text_diff": "== 1.2.2.0"
                 },
                 "type": "pear-library",
                 "autoload": {
@@ -3663,111 +3694,6 @@
             }
         },
         "rmm5t/jquery-timeago": {
-            "v1.4.0": {
-                "name": "rmm5t/jquery-timeago",
-                "version": "v1.4.0",
-                "version_normalized": "1.4.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/rmm5t/jquery-timeago.git",
-                    "reference": "dceed3b1d902d78ad1be82776b9f282526982d8c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/dceed3b1d902d78ad1be82776b9f282526982d8c",
-                    "reference": "dceed3b1d902d78ad1be82776b9f282526982d8c",
-                    "shasum": ""
-                },
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.4.0",
-                    "issues": "https://github.com/rmm5t/jquery-timeago/issues"
-                }
-            },
-            "v1.4.1": {
-                "name": "rmm5t/jquery-timeago",
-                "version": "v1.4.1",
-                "version_normalized": "1.4.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/rmm5t/jquery-timeago.git",
-                    "reference": "bf9d361e4e939286777751f4457af54b2e000c7c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/bf9d361e4e939286777751f4457af54b2e000c7c",
-                    "reference": "bf9d361e4e939286777751f4457af54b2e000c7c",
-                    "shasum": ""
-                },
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.4.1",
-                    "issues": "https://github.com/rmm5t/jquery-timeago/issues"
-                }
-            },
-            "v1.4.2": {
-                "name": "rmm5t/jquery-timeago",
-                "version": "v1.4.2",
-                "version_normalized": "1.4.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/rmm5t/jquery-timeago.git",
-                    "reference": "a958b5ec6481bc0dade8ca52ec17503e6a681e8e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/a958b5ec6481bc0dade8ca52ec17503e6a681e8e",
-                    "reference": "a958b5ec6481bc0dade8ca52ec17503e6a681e8e",
-                    "shasum": ""
-                },
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.4.2",
-                    "issues": "https://github.com/rmm5t/jquery-timeago/issues"
-                }
-            },
-            "v1.4.3": {
-                "name": "rmm5t/jquery-timeago",
-                "version": "v1.4.3",
-                "version_normalized": "1.4.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/rmm5t/jquery-timeago.git",
-                    "reference": "5293dacee881e78b25bd4f699161fca81dff5205"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/5293dacee881e78b25bd4f699161fca81dff5205",
-                    "reference": "5293dacee881e78b25bd4f699161fca81dff5205",
-                    "shasum": ""
-                },
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.4.3",
-                    "issues": "https://github.com/rmm5t/jquery-timeago/issues"
-                }
-            },
-            "v1.5.0": {
-                "name": "rmm5t/jquery-timeago",
-                "version": "v1.5.0",
-                "version_normalized": "1.5.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/rmm5t/jquery-timeago.git",
-                    "reference": "7cb9e38ba149b6c467e12b79e39f2d98d39f972d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/7cb9e38ba149b6c467e12b79e39f2d98d39f972d",
-                    "reference": "7cb9e38ba149b6c467e12b79e39f2d98d39f972d",
-                    "shasum": ""
-                },
-                "type": "library",
-                "support": {
-                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.5.0",
-                    "issues": "https://github.com/rmm5t/jquery-timeago/issues"
-                }
-            },
             "v1.5.1": {
                 "name": "rmm5t/jquery-timeago",
                 "version": "v1.5.1",
@@ -3916,6 +3842,56 @@
                 "support": {
                     "issues": "https://github.com/rmm5t/jquery-timeago/issues",
                     "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.5.3"
+                }
+            },
+            "v1.5.4": {
+                "name": "rmm5t/jquery-timeago",
+                "version": "v1.5.4",
+                "version_normalized": "1.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rmm5t/jquery-timeago.git",
+                    "reference": "180864a9c544a49e43719b457250af216d5e4c3a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/180864a9c544a49e43719b457250af216d5e4c3a",
+                    "reference": "180864a9c544a49e43719b457250af216d5e4c3a",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/jquery": ">=1.2.3"
+                },
+                "time": "2017-01-19T18:07:14+00:00",
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "jquery.timeago.js"
+                        ],
+                        "files": [
+                            "locales/jquery.timeago.*.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ryan McGeary",
+                        "email": "ryan@mcgeary.org"
+                    }
+                ],
+                "description": "jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. \"4 minutes ago\" or \"about 1 day ago\").",
+                "homepage": "http://timeago.yarp.com/",
+                "keywords": [
+                    "microformat",
+                    "time"
+                ],
+                "support": {
+                    "issues": "https://github.com/rmm5t/jquery-timeago/issues",
+                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.5.4"
                 }
             }
         },
