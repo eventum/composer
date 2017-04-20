@@ -2144,7 +2144,7 @@
                 "version_normalized": "2.00.1.0",
                 "dist": {
                     "type": "tar",
-                    "url": "https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz",
+                    "url": "https://releases.pagure.org/liberation-fonts/liberation-fonts-2.00.1.tar.gz",
                     "reference": null,
                     "shasum": null
                 },
