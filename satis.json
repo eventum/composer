@@ -240,7 +240,7 @@
 				"license": "OFL-1.1",
 				"type": "library",
 				"dist": {
-					"url": "https://releases.pagure.org/liberation-fonts/liberation-fonts-2.00.1.tar.gz",
+					"url": "https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz",
 					"type": "tar"
 				}
 			}
