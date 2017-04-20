@@ -2181,6 +2181,30 @@
                 ]
             }
         },
+        "ichord/caret.js": {
+            "0.3.1": {
+                "name": "ichord/Caret.js",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/ichord/Caret.js/archive/v0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "src/jquery.caret.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ]
+            }
+        },
         "jackmoore/autosize": {
             "3.0.13": {
                 "name": "jackmoore/autosize",
