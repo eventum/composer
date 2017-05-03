@@ -109,7 +109,7 @@
                     "type": "zip",
                     "url": "https://github.com/harvesthq/chosen/releases/download/v1.2.0/chosen_v1.2.0.zip",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "ee7c9fe5ff1461bad457e523ee26e87d7d175084"
                 },
                 "type": "component",
                 "extra": {
@@ -140,7 +140,7 @@
                     "type": "zip",
                     "url": "https://github.com/DataTables/DataTables/archive/1.10.4.zip",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "f5fc67a8f660823f8cc24aeb178bfd607af8d7ec"
                 },
                 "type": "component",
                 "extra": {
@@ -273,7 +273,7 @@
                     "type": "zip",
                     "url": "https://github.com/enyo/dropzone/archive/v4.0.1.zip",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "a8b60c63b689e457c83674f47567bd61c2326450"
                 },
                 "type": "component",
                 "extra": {
@@ -2282,11 +2282,62 @@
                     "type": "tar",
                     "url": "https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "84b40d7f8bb0cd085dd70b3abed197133d761557"
                 },
                 "type": "library",
                 "license": [
                     "OFL-1.1"
+                ]
+            }
+        },
+        "fortawesome/font-awesome": {
+            "4.7.0": {
+                "name": "fortawesome/font-awesome",
+                "version": "4.7.0",
+                "version_normalized": "4.7.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.tar.gz",
+                    "reference": null,
+                    "shasum": "7a94b1800202e20c382d9847cdf51e8d1c106b7e"
+                },
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "style": [
+                            "css/font-awesome.css"
+                        ],
+                        "files": [
+                            "fonts/fontawesome-webfont.eot",
+                            "fonts/fontawesome-webfont.svg",
+                            "fonts/fontawesome-webfont.ttf",
+                            "fonts/fontawesome-webfont.woff",
+                            "fonts/fontawesome-webfont.woff2",
+                            "fonts/FontAwesome.otf"
+                        ]
+                    }
+                },
+                "license": [
+                    "OFL-1.1",
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dave Gandy",
+                        "email": "dave@fontawesome.io",
+                        "role": "Developer",
+                        "homepage": "http://twitter.com/davegandy"
+                    }
+                ],
+                "description": "The iconic font and CSS framework",
+                "homepage": "http://fontawesome.io/",
+                "keywords": [
+                    "awesome",
+                    "bootstrap",
+                    "font",
+                    "font",
+                    "fontawesome",
+                    "icon"
                 ]
             }
         },
@@ -2299,7 +2350,7 @@
                     "type": "zip",
                     "url": "https://github.com/ichord/At.js/archive/v1.5.3.zip",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "670fae68a7576f01943c9f9eb22764603ea33d44"
                 },
                 "type": "library",
                 "extra": {
@@ -2326,7 +2377,7 @@
                     "type": "zip",
                     "url": "https://github.com/ichord/Caret.js/archive/v0.3.1.zip",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "ad928584af63ea312eaf6b39c45bcd8185ca4189"
                 },
                 "type": "library",
                 "extra": {
@@ -2350,7 +2401,7 @@
                     "type": "zip",
                     "url": "https://github.com/jackmoore/autosize/archive/3.0.13.zip",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "f2c48fb4cd76d89bb4e6e8c34e9cd130a1633aec"
                 },
                 "type": "component",
                 "extra": {
@@ -3855,7 +3906,7 @@
                     "type": "tar",
                     "url": "https://downloads.sourceforge.net/phplot/phplot-6.1.0.tar.gz",
                     "reference": null,
-                    "shasum": null
+                    "shasum": "252f0b5bdfd64817630f9b67771dcf086a94a867"
                 },
                 "require": {
                     "ext-date": "*",
