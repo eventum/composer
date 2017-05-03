@@ -251,6 +251,48 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "fortawesome/font-awesome",
+				"description": "The iconic font and CSS framework",
+				"version": "4.7.0",
+				"dist": {
+					"url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.tar.gz",
+					"shasum": "7a94b1800202e20c382d9847cdf51e8d1c106b7e",
+					"type": "tar"
+				},
+				"keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+				"homepage": "http://fontawesome.io/",
+				"authors": [
+					{
+						"name": "Dave Gandy",
+						"email": "dave@fontawesome.io",
+						"role": "Developer",
+						"homepage": "http://twitter.com/davegandy"
+					}
+				],
+				"license": [
+					"OFL-1.1",
+					"MIT"
+				],
+				"extra": {
+					"component": {
+						"styles": [
+							"css/font-awesome.css"
+						],
+						"files": [
+							"fonts/fontawesome-webfont.eot",
+							"fonts/fontawesome-webfont.svg",
+							"fonts/fontawesome-webfont.ttf",
+							"fonts/fontawesome-webfont.woff",
+							"fonts/fontawesome-webfont.woff2",
+							"fonts/FontAwesome.otf"
+						]
+					}
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "components/jquery-datatables",
 				"type": "component",
 				"version": "1.10.4",
@@ -291,6 +333,7 @@
 		"enyo/dropzone":"*",
 		"eventum/eventum": "^3.0.9",
 		"fonts/liberation": "*",
+		"fortawesome/font-awesome": "^4.7",
 		"ichord/At.js": "~1.5.3",
 		"ichord/Caret.js": "~0.3.1",
 		"jackmoore/autosize":"~3.0.13",
