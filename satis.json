@@ -29,10 +29,6 @@
 			"url": "https://github.com/glensc/monolog-desktop-extensions"
 		},
 		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/zend-mail"
-		},
-		{
 			"type": "package",
 			"package": {
 				"name": "sphinx/php-sphinxapi",
