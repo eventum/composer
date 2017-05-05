@@ -4155,6 +4155,30 @@
                 ]
             }
         },
+        "widernet/cmd-ctrl-enter": {
+            "0.2.0": {
+                "name": "widernet/cmd-ctrl-enter",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/widernet/cmd-ctrl-enter/archive/8843088c/0.2.0.zip",
+                    "reference": null,
+                    "shasum": "5ed24097dc59b1d426a5ad3efb329b19939d7b44"
+                },
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "src/cmd-ctrl-enter.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ]
+            }
+        },
         "willdurand/email-reply-parser": {
             "dev-set-sig-regex": {
                 "name": "willdurand/email-reply-parser",
