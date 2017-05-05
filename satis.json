@@ -237,6 +237,28 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "widernet/cmd-ctrl-enter",
+				"version": "0.2.0",
+				"license": [
+					"MIT"
+				],
+				"dist": {
+					"url": "https://github.com/widernet/cmd-ctrl-enter/archive/8843088c/0.2.0.zip",
+					"shasum": "5ed24097dc59b1d426a5ad3efb329b19939d7b44",
+					"type": "zip"
+				},
+				"extra": {
+					"component": {
+						"scripts": [
+							"src/cmd-ctrl-enter.js"
+						]
+					}
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "fonts/liberation",
 				"version": "2.00.1",
 				"license": "OFL-1.1",
@@ -358,6 +380,7 @@
 		"phplot/phplot": "~6.1.0",
 		"rmm5t/jquery-timeago": "~1.4",
 		"sphinx/php-sphinxapi": "*",
+		"widernet/cmd-ctrl-enter": "~0.2.0",
 		"willdurand/email-reply-parser": "dev-set-sig-regex",
 		"zendframework/zend-mail": "dev-develop-2.4"
 	}
