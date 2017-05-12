@@ -4079,6 +4079,101 @@
                 "description": "The PEAR package contains:\n * the PEAR installer, for creating, distributing\n   and installing packages\n * the PEAR_Exception PHP5 error handling mechanism\n * the PEAR_ErrorStack advanced error handling mechanism\n * the PEAR_Error error handling mechanism\n * the OS_Guess class for retrieving info about the OS\n   where PHP is running on\n * the System class for quick handling of common operations\n   with files and directories\n * the PEAR base class\n  Features in a nutshell:\n  * full support for channels\n  * pre-download dependency validation\n  * new package.xml 2.0 format allows tremendous flexibility while maintaining BC\n  * support for optional dependency groups and limited support for sub-packaging\n  * robust dependency support\n  * full dependency validation on uninstall\n  * remote install for hosts with only ftp access - no more problems with\n    restricted host installation\n  * full support for mirroring\n  * support for bundling several packages into a single tarball\n  * support for static dependencies on a url-based package\n  * support for custom file roles and installation tasks"
             }
         },
+        "pear-pear.php.net/structures_graph": {
+            "1.0.2": {
+                "name": "pear-pear.php.net/Structures_Graph",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Structures_Graph-1.0.2.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=4.2.0.0"
+                },
+                "replace": {
+                    "pear-pear/structures_graph": "== 1.0.2.0",
+                    "pear/structures_graph": "== 1.0.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-3.0+"
+                ],
+                "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
+            },
+            "1.0.3": {
+                "name": "pear-pear.php.net/Structures_Graph",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Structures_Graph-1.0.3.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=4.2.0.0"
+                },
+                "replace": {
+                    "pear-pear/structures_graph": "== 1.0.3.0",
+                    "pear/structures_graph": "== 1.0.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-3.0+"
+                ],
+                "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
+            },
+            "1.0.4": {
+                "name": "pear-pear.php.net/Structures_Graph",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Structures_Graph-1.0.4.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=4.2.0.0"
+                },
+                "replace": {
+                    "pear-pear/structures_graph": "== 1.0.4.0",
+                    "pear/structures_graph": "== 1.0.4.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL-3.0+"
+                ],
+                "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
+            }
+        },
         "pear-pear.php.net/text_diff": {
             "1.2.1": {
                 "name": "pear-pear.php.net/Text_Diff",
