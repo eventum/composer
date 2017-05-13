@@ -279,7 +279,6 @@
                 "extra": {
                     "component": {
                         "scripts": [
-                            "index.js",
                             "dist/dropzone.js"
                         ],
                         "styles": [
