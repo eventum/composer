@@ -103,13 +103,13 @@
 			"package": {
 				"name": "enyo/dropzone",
 				"type": "component",
-				"version": "4.0.1",
+				"version": "4.3.0",
 				"license": [
 					"MIT"
 				],
 				"dist": {
-					"url": "https://github.com/enyo/dropzone/archive/v4.0.1.zip",
-					"shasum": "a8b60c63b689e457c83674f47567bd61c2326450",
+					"url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip",
+					"shasum": "42357a4753636163f73b8ce3bde140366b8f8039",
 					"type": "zip"
 				},
 				"extra": {
