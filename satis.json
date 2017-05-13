@@ -114,7 +114,7 @@
 				},
 				"extra": {
 					"component": {
-						"scripts": [ "index.js", "dist/dropzone.js" ],
+						"scripts": [ "dist/dropzone.js" ],
 						"styles": [ "dist/basic.css" ]
 					}
 				}
