@@ -265,15 +265,15 @@
             }
         },
         "enyo/dropzone": {
-            "4.0.1": {
+            "4.3.0": {
                 "name": "enyo/dropzone",
-                "version": "4.0.1",
-                "version_normalized": "4.0.1.0",
+                "version": "4.3.0",
+                "version_normalized": "4.3.0.0",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/enyo/dropzone/archive/v4.0.1.zip",
+                    "url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip",
                     "reference": null,
-                    "shasum": "a8b60c63b689e457c83674f47567bd61c2326450"
+                    "shasum": "42357a4753636163f73b8ce3bde140366b8f8039"
                 },
                 "type": "component",
                 "extra": {
