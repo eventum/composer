@@ -4956,12 +4956,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/glensc/zend-mail.git",
-                    "reference": "6bbdb6b5b8f549fa9f87cc5a6adbb558dfefeb99"
+                    "reference": "a4a93ef0c5a2f66848f5d10fdfc165db19a36413"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/zend-mail/zipball/6bbdb6b5b8f549fa9f87cc5a6adbb558dfefeb99",
-                    "reference": "6bbdb6b5b8f549fa9f87cc5a6adbb558dfefeb99",
+                    "url": "https://api.github.com/repos/glensc/zend-mail/zipball/a4a93ef0c5a2f66848f5d10fdfc165db19a36413",
+                    "reference": "a4a93ef0c5a2f66848f5d10fdfc165db19a36413",
                     "shasum": ""
                 },
                 "require": {
@@ -4982,7 +4982,7 @@
                     "zendframework/zend-crypt": "Crammd5 support in SMTP Auth",
                     "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
                 },
-                "time": "2017-05-14T12:16:24+00:00",
+                "time": "2017-06-12T20:38:28+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
