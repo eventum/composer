@@ -4876,6 +4876,106 @@
                     "issues": "https://github.com/rmm5t/jquery-timeago/issues",
                     "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.5.4"
                 }
+            },
+            "v1.6.0": {
+                "name": "rmm5t/jquery-timeago",
+                "version": "v1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rmm5t/jquery-timeago.git",
+                    "reference": "f908f5c27ea5a8b1b27ef480fa4636dd90e76a8d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/f908f5c27ea5a8b1b27ef480fa4636dd90e76a8d",
+                    "reference": "f908f5c27ea5a8b1b27ef480fa4636dd90e76a8d",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/jquery": ">=1.2.3"
+                },
+                "time": "2017-07-14T13:24:53+00:00",
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "jquery.timeago.js"
+                        ],
+                        "files": [
+                            "locales/jquery.timeago.*.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ryan McGeary",
+                        "email": "ryan@mcgeary.org"
+                    }
+                ],
+                "description": "jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. \"4 minutes ago\" or \"about 1 day ago\").",
+                "homepage": "http://timeago.yarp.com/",
+                "keywords": [
+                    "microformat",
+                    "time"
+                ],
+                "support": {
+                    "issues": "https://github.com/rmm5t/jquery-timeago/issues",
+                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.6.0"
+                }
+            },
+            "v1.6.1": {
+                "name": "rmm5t/jquery-timeago",
+                "version": "v1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/rmm5t/jquery-timeago.git",
+                    "reference": "0a370aa681dccefccd42fac8e8892c9ef3257890"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/rmm5t/jquery-timeago/zipball/0a370aa681dccefccd42fac8e8892c9ef3257890",
+                    "reference": "0a370aa681dccefccd42fac8e8892c9ef3257890",
+                    "shasum": ""
+                },
+                "require": {
+                    "components/jquery": ">=1.2.3"
+                },
+                "time": "2017-07-17T14:05:05+00:00",
+                "type": "library",
+                "extra": {
+                    "component": {
+                        "scripts": [
+                            "jquery.timeago.js"
+                        ],
+                        "files": [
+                            "locales/jquery.timeago.*.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ryan McGeary",
+                        "email": "ryan@mcgeary.org"
+                    }
+                ],
+                "description": "jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. \"4 minutes ago\" or \"about 1 day ago\").",
+                "homepage": "http://timeago.yarp.com/",
+                "keywords": [
+                    "microformat",
+                    "time"
+                ],
+                "support": {
+                    "issues": "https://github.com/rmm5t/jquery-timeago/issues",
+                    "source": "https://github.com/rmm5t/jquery-timeago/tree/v1.6.1"
+                }
             }
         },
         "sphinx/php-sphinxapi": {
