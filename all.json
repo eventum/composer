@@ -6222,6 +6222,37 @@
                 ],
                 "description": "SmartIRC is your go-to library for interfacing with IRC networks. All you need is PHP 5.3 or later.\n\nFull feature list:\n-------------------------------------\n- Fully object-oriented programmed\n- Your bot class can be inline in the same file you call SmartIRC from, or included as an external file\n- Every received IRC message is parsed into an object you can easily get information from\n  (containing the following info: rawmessage, from, nick, ident, host, type, params, message, channel)\n- Make your bots using Action Handlers and Time Handlers, which register custom callbacks when various events happen or on time intervals, respectively – or, extend the Net_SmartIRC class to add (or override) handlers directly using individual server message types\n- Flood protection which uses a send buffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)\n- Nick collision detection and handling\n- Auto-retry during initial connection attempt\n- Auto-reconnect if connection is lost, which will re-join to the channels it was in before\n- Debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)\n- Supports PHP as old as 5.3.0\n- Channel syncing (tracking of users/modes/topic etc in objects)\n- Customizable CTCP VERSION reply"
             },
+            "1.1.13": {
+                "name": "pear-pear.php.net/Net_SmartIRC",
+                "version": "1.1.13",
+                "version_normalized": "1.1.13.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.13.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "php": ">=5.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/net_smartirc": "== 1.1.13.0",
+                    "pear/net_smartirc": "== 1.1.13.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "LGPL"
+                ],
+                "description": "SmartIRC is your go-to library for interfacing with IRC networks. All you need is PHP 5.3 or later.\n\nFull feature list:\n-------------------------------------\n- Fully object-oriented programmed\n- Your bot class can be inline in the same file you call SmartIRC from, or included as an external file\n- Every received IRC message is parsed into an object you can easily get information from\n  (containing the following info: rawmessage, from, nick, ident, host, type, params, message, channel)\n- Make your bots using Action Handlers and Time Handlers, which register custom callbacks when various events happen or on time intervals, respectively – or, extend the Net_SmartIRC class to add (or override) handlers directly using individual server message types\n- Flood protection which uses a send buffer with a queue that has 3 priority levels (high, medium, low) plus a bypass level (critical)\n- Nick collision detection and handling\n- Auto-retry during initial connection attempt\n- Auto-reconnect if connection is lost, which will re-join to the channels it was in before\n- Debugging/logging system with log levels (destination can be file, stdout, syslog or browserout)\n- Supports PHP as old as 5.3.0\n- Channel syncing (tracking of users/modes/topic etc in objects)\n- Customizable CTCP VERSION reply"
+            },
             "1.1.9": {
                 "name": "pear-pear.php.net/Net_SmartIRC",
                 "version": "1.1.9",
