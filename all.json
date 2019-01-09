@@ -4615,6 +4615,908 @@
                     "issues": "https://github.com/eventum/eventum/issues",
                     "source": "https://github.com/eventum/eventum/tree/v3.5.0"
                 }
+            },
+            "v3.5.1": {
+                "name": "eventum/eventum",
+                "version": "v3.5.1",
+                "version_normalized": "3.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "42fd9a69ca8fee673fe0ee26a1be197d73430cf5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/42fd9a69ca8fee673fe0ee26a1be197d73430cf5",
+                    "reference": "42fd9a69ca8fee673fe0ee26a1be197d73430cf5",
+                    "shasum": ""
+                },
+                "require": {
+                    "cebe/markdown": "^1.2",
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/dbal": "^2.5",
+                    "doctrine/orm": "^2.5",
+                    "enrise/urihelper": "^1.0",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "fonts/liberation": "*",
+                    "glen/filename-normalizer": "^2.0",
+                    "ircmaxell/random-lib": "~1.1.0",
+                    "league/flysystem": "^1.0",
+                    "malkusch/lock": "^0.4.0",
+                    "mnapoli/silly": "^1.5",
+                    "monolog/monolog": "^1.22.0",
+                    "pear-pear.php.net/math_stats": "*",
+                    "pear-pear.php.net/net_pop3": "*",
+                    "pear-pear.php.net/net_url": "*",
+                    "pear-pear.php.net/text_diff": "*",
+                    "pear/auth_sasl": "*",
+                    "pear/net_smtp": "1.6.*",
+                    "pear/net_socket": "*",
+                    "pear/pear-core-minimal": "^1.10",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^5.6.0 || ^7.0",
+                    "php-gettext/php-gettext": "1.0.*",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "robmorgan/phinx": "^0.9.2",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/console": "^3.2.0",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0",
+                    "symfony/filesystem": "^2.7 || ^3.0",
+                    "symfony/http-foundation": "^2.7 || ^3.0",
+                    "symfony/ldap": "^2.7 || ^3.3",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "zendframework/zend-config": "2.4.*",
+                    "zendframework/zend-mail": "dev-develop-2.4",
+                    "zendframework/zend-servicemanager": "2.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-mbstring": "1.1.1",
+                    "symfony/polyfill-php55": "1.1.1",
+                    "symfony/polyfill-php56": "1.6.0",
+                    "zendframework/zend-crypt": "2.4.9"
+                },
+                "require-dev": {
+                    "bgrins/filereader.js": "*",
+                    "components/jquery": "~1.8.3",
+                    "components/jquery-blockui": "*@dev",
+                    "components/jquery-chosen": "*",
+                    "components/jquery-cookie": "~1.4.1",
+                    "components/jquery-datatables": "~1.10.4",
+                    "components/jqueryui": "1.11.*",
+                    "drmonty/garlicjs": "~1.2.4",
+                    "enyo/dropzone": "~4.3.0",
+                    "eventum/rpc": "~4.0.0",
+                    "fortawesome/font-awesome": "^4.7",
+                    "jackmoore/autosize": "*",
+                    "jasig/phpcas": "~1.3.3",
+                    "jquery-form/form": "^4.2",
+                    "maximebf/debugbar": "1.*",
+                    "rmm5t/jquery-timeago": "*",
+                    "roave/security-advisories": "dev-master",
+                    "robloach/component-installer": "*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/thanks": "^1.0",
+                    "symfony/var-dumper": "~2.7.3",
+                    "widernet/cmd-ctrl-enter": "~0.2.0"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2018-06-09T17:25:49+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/",
+                            "tests/src/"
+                        ]
+                    },
+                    "classmap": [
+                        "tests/src"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "source": "https://github.com/eventum/eventum/tree/v3.5.1"
+                }
+            },
+            "v3.5.2": {
+                "name": "eventum/eventum",
+                "version": "v3.5.2",
+                "version_normalized": "3.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "d6725342547b494de68d7b800896e6462cb9839e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/d6725342547b494de68d7b800896e6462cb9839e",
+                    "reference": "d6725342547b494de68d7b800896e6462cb9839e",
+                    "shasum": ""
+                },
+                "require": {
+                    "cebe/markdown": "^1.2",
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/dbal": "^2.5",
+                    "doctrine/orm": "^2.5",
+                    "enrise/urihelper": "^1.0",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "fonts/liberation": "*",
+                    "glen/filename-normalizer": "^2.0",
+                    "ircmaxell/random-lib": "~1.1.0",
+                    "league/flysystem": "^1.0",
+                    "malkusch/lock": "^0.4.0",
+                    "mnapoli/silly": "^1.5",
+                    "monolog/monolog": "^1.22.0",
+                    "pear-pear.php.net/math_stats": "*",
+                    "pear-pear.php.net/net_pop3": "*",
+                    "pear-pear.php.net/net_url": "*",
+                    "pear-pear.php.net/text_diff": "*",
+                    "pear/auth_sasl": "*",
+                    "pear/net_smtp": "1.6.*",
+                    "pear/net_socket": "*",
+                    "pear/pear-core-minimal": "^1.10",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^5.6.0 || ^7.0",
+                    "php-gettext/php-gettext": "1.0.*",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "robmorgan/phinx": "^0.9.2",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/console": "^3.2.0",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0",
+                    "symfony/filesystem": "^2.7 || ^3.0",
+                    "symfony/http-foundation": "^2.7 || ^3.0",
+                    "symfony/ldap": "^2.7 || ^3.3",
+                    "symfony/security-csrf": "^3.4",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "zendframework/zend-config": "2.4.*",
+                    "zendframework/zend-mail": "dev-develop-2.4",
+                    "zendframework/zend-servicemanager": "2.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-mbstring": "1.1.1",
+                    "symfony/polyfill-php55": "1.1.1",
+                    "symfony/polyfill-php56": "1.6.0",
+                    "zendframework/zend-crypt": "2.4.9"
+                },
+                "require-dev": {
+                    "bgrins/filereader.js": "*",
+                    "components/jquery": "~1.8.3",
+                    "components/jquery-blockui": "*@dev",
+                    "components/jquery-chosen": "*",
+                    "components/jquery-cookie": "~1.4.1",
+                    "components/jquery-datatables": "~1.10.4",
+                    "components/jqueryui": "1.11.*",
+                    "drmonty/garlicjs": "~1.2.4",
+                    "enyo/dropzone": "~4.3.0",
+                    "eventum/rpc": "~4.0.0",
+                    "fortawesome/font-awesome": "^4.7",
+                    "jackmoore/autosize": "*",
+                    "jasig/phpcas": "~1.3.3",
+                    "jquery-form/form": "^4.2",
+                    "maximebf/debugbar": "1.*",
+                    "rmm5t/jquery-timeago": "*",
+                    "roave/security-advisories": "dev-master",
+                    "robloach/component-installer": "*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/thanks": "^1.0",
+                    "symfony/var-dumper": "~2.7.3",
+                    "widernet/cmd-ctrl-enter": "~0.2.0"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2018-07-05T18:16:19+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/",
+                            "tests/src/"
+                        ]
+                    },
+                    "classmap": [
+                        "tests/src"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "source": "https://github.com/eventum/eventum/tree/v3.5.2"
+                }
+            },
+            "v3.5.3": {
+                "name": "eventum/eventum",
+                "version": "v3.5.3",
+                "version_normalized": "3.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "8a18a3fe1609fbae1b4319b61a95fe188320d3e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/8a18a3fe1609fbae1b4319b61a95fe188320d3e4",
+                    "reference": "8a18a3fe1609fbae1b4319b61a95fe188320d3e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "cebe/markdown": "^1.2",
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/dbal": "^2.5",
+                    "doctrine/orm": "^2.5",
+                    "enrise/urihelper": "^1.0",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "fonts/liberation": "*",
+                    "glen/filename-normalizer": "^2.0",
+                    "ircmaxell/random-lib": "~1.1.0",
+                    "league/flysystem": "^1.0",
+                    "malkusch/lock": "^0.4.0",
+                    "mnapoli/silly": "^1.5",
+                    "monolog/monolog": "^1.22.0",
+                    "pear-pear.php.net/math_stats": "*",
+                    "pear-pear.php.net/net_pop3": "*",
+                    "pear-pear.php.net/net_url": "*",
+                    "pear-pear.php.net/text_diff": "*",
+                    "pear/auth_sasl": "*",
+                    "pear/net_smtp": "1.6.*",
+                    "pear/net_socket": "*",
+                    "pear/pear-core-minimal": "^1.10",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^5.6.0 || ^7.0",
+                    "php-gettext/php-gettext": "1.0.*",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "robmorgan/phinx": "^0.9.2",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/console": "^3.2.0",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0",
+                    "symfony/filesystem": "^2.7 || ^3.0",
+                    "symfony/http-foundation": "^2.7 || ^3.0",
+                    "symfony/ldap": "^2.7 || ^3.3",
+                    "symfony/security-csrf": "^3.4",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "zendframework/zend-config": "2.4.*",
+                    "zendframework/zend-mail": "dev-develop-2.4",
+                    "zendframework/zend-servicemanager": "2.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-mbstring": "1.1.1",
+                    "symfony/polyfill-php55": "1.1.1",
+                    "symfony/polyfill-php56": "1.6.0",
+                    "zendframework/zend-crypt": "2.4.9"
+                },
+                "require-dev": {
+                    "bgrins/filereader.js": "*",
+                    "components/jquery": "~1.8.3",
+                    "components/jquery-blockui": "*@dev",
+                    "components/jquery-chosen": "*",
+                    "components/jquery-cookie": "~1.4.1",
+                    "components/jquery-datatables": "~1.10.4",
+                    "components/jqueryui": "1.11.*",
+                    "drmonty/garlicjs": "~1.2.4",
+                    "enyo/dropzone": "~4.3.0",
+                    "eventum/rpc": "~4.0.0",
+                    "fortawesome/font-awesome": "^4.7",
+                    "jackmoore/autosize": "*",
+                    "jasig/phpcas": "~1.3.3",
+                    "jquery-form/form": "^4.2",
+                    "maximebf/debugbar": "1.*",
+                    "rmm5t/jquery-timeago": "*",
+                    "robloach/component-installer": "*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/thanks": "^1.0",
+                    "symfony/var-dumper": "~2.7.3",
+                    "widernet/cmd-ctrl-enter": "~0.2.0"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2018-08-22T08:46:31+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/",
+                            "tests/src/"
+                        ]
+                    },
+                    "classmap": [
+                        "tests/src"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "source": "https://github.com/eventum/eventum/tree/v3.5.3"
+                }
+            },
+            "v3.5.4": {
+                "name": "eventum/eventum",
+                "version": "v3.5.4",
+                "version_normalized": "3.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "6b372c0925bbcdee88731ea5135034e0c1d635f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/6b372c0925bbcdee88731ea5135034e0c1d635f7",
+                    "reference": "6b372c0925bbcdee88731ea5135034e0c1d635f7",
+                    "shasum": ""
+                },
+                "require": {
+                    "cebe/markdown": "^1.2",
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/dbal": "^2.5",
+                    "doctrine/orm": "^2.5",
+                    "enrise/urihelper": "^1.0",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "fonts/liberation": "*",
+                    "glen/filename-normalizer": "^2.0",
+                    "ircmaxell/random-lib": "~1.1.0",
+                    "league/flysystem": "^1.0",
+                    "malkusch/lock": "^0.4.0",
+                    "mnapoli/silly": "^1.5",
+                    "monolog/monolog": "^1.22.0",
+                    "pear-pear.php.net/math_stats": "*",
+                    "pear-pear.php.net/net_pop3": "*",
+                    "pear-pear.php.net/net_url": "*",
+                    "pear-pear.php.net/text_diff": "*",
+                    "pear/auth_sasl": "*",
+                    "pear/net_smtp": "1.6.*",
+                    "pear/net_socket": "*",
+                    "pear/pear-core-minimal": "^1.10",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^5.6.0 || ^7.0",
+                    "php-gettext/php-gettext": "1.0.*",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "robmorgan/phinx": "^0.9.2",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/console": "^3.2.0",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0",
+                    "symfony/filesystem": "^2.7 || ^3.0",
+                    "symfony/http-foundation": "^2.7 || ^3.0",
+                    "symfony/ldap": "^2.7 || ^3.3",
+                    "symfony/security-csrf": "^3.4",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "zendframework/zend-config": "2.4.*",
+                    "zendframework/zend-mail": "dev-develop-2.4",
+                    "zendframework/zend-servicemanager": "2.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-mbstring": "1.1.1",
+                    "symfony/polyfill-php55": "1.1.1",
+                    "symfony/polyfill-php56": "1.6.0",
+                    "zendframework/zend-crypt": "2.4.9"
+                },
+                "require-dev": {
+                    "bgrins/filereader.js": "*",
+                    "components/jquery": "~1.8.3",
+                    "components/jquery-blockui": "*@dev",
+                    "components/jquery-chosen": "*",
+                    "components/jquery-cookie": "~1.4.1",
+                    "components/jquery-datatables": "~1.10.4",
+                    "components/jqueryui": "1.11.*",
+                    "drmonty/garlicjs": "~1.2.4",
+                    "enyo/dropzone": "~4.3.0",
+                    "eventum/rpc": "~4.0.0",
+                    "fortawesome/font-awesome": "^4.7",
+                    "jackmoore/autosize": "*",
+                    "jasig/phpcas": "~1.3.3",
+                    "jquery-form/form": "^4.2",
+                    "maximebf/debugbar": "1.*",
+                    "rmm5t/jquery-timeago": "*",
+                    "robloach/component-installer": "*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/thanks": "^1.0",
+                    "symfony/var-dumper": "~2.7.3",
+                    "widernet/cmd-ctrl-enter": "~0.2.0"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2018-09-05T08:59:11+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/",
+                            "tests/src/"
+                        ]
+                    },
+                    "classmap": [
+                        "tests/src"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "source": "https://github.com/eventum/eventum/tree/v3.5.4"
+                }
+            },
+            "v3.5.5": {
+                "name": "eventum/eventum",
+                "version": "v3.5.5",
+                "version_normalized": "3.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "ece70047fa0db97325d97554d13ecc5eb30d3c8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/ece70047fa0db97325d97554d13ecc5eb30d3c8f",
+                    "reference": "ece70047fa0db97325d97554d13ecc5eb30d3c8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "cebe/markdown": "^1.2",
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/dbal": "^2.5",
+                    "doctrine/orm": "^2.5",
+                    "enrise/urihelper": "^1.0",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "fonts/liberation": "*",
+                    "glen/filename-normalizer": "^2.0",
+                    "ircmaxell/random-lib": "~1.1.0",
+                    "league/flysystem": "^1.0",
+                    "malkusch/lock": "^0.4.0",
+                    "mnapoli/silly": "^1.5",
+                    "monolog/monolog": "^1.22.0",
+                    "pear-pear.php.net/math_stats": "*",
+                    "pear-pear.php.net/net_pop3": "*",
+                    "pear-pear.php.net/net_url": "*",
+                    "pear-pear.php.net/text_diff": "*",
+                    "pear/auth_sasl": "*",
+                    "pear/net_smtp": "1.6.*",
+                    "pear/net_socket": "*",
+                    "pear/pear-core-minimal": "^1.10",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^5.6.0 || ^7.0",
+                    "php-gettext/php-gettext": "1.0.*",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "robmorgan/phinx": "^0.9.2",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/console": "^3.2.0",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0",
+                    "symfony/filesystem": "^2.7 || ^3.0",
+                    "symfony/http-foundation": "^2.7 || ^3.0",
+                    "symfony/ldap": "^2.7 || ^3.3",
+                    "symfony/security-csrf": "^3.4",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "zendframework/zend-config": "2.4.*",
+                    "zendframework/zend-mail": "dev-develop-2.4",
+                    "zendframework/zend-servicemanager": "2.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-mbstring": "1.1.1",
+                    "symfony/polyfill-php55": "1.1.1",
+                    "symfony/polyfill-php56": "1.6.0",
+                    "zendframework/zend-crypt": "2.4.9"
+                },
+                "require-dev": {
+                    "bgrins/filereader.js": "*",
+                    "components/jquery": "~1.8.3",
+                    "components/jquery-blockui": "*@dev",
+                    "components/jquery-chosen": "*",
+                    "components/jquery-cookie": "~1.4.1",
+                    "components/jquery-datatables": "~1.10.4",
+                    "components/jqueryui": "1.11.*",
+                    "drmonty/garlicjs": "~1.2.4",
+                    "enyo/dropzone": "~4.3.0",
+                    "eventum/rpc": "~4.0.0",
+                    "fortawesome/font-awesome": "^4.7",
+                    "jackmoore/autosize": "*",
+                    "jasig/phpcas": "~1.3.3",
+                    "jquery-form/form": "^4.2",
+                    "maximebf/debugbar": "1.*",
+                    "rmm5t/jquery-timeago": "*",
+                    "robloach/component-installer": "*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/thanks": "^1.0",
+                    "symfony/var-dumper": "~2.7.3",
+                    "widernet/cmd-ctrl-enter": "~0.2.0"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2018-12-26T18:15:30+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/",
+                            "tests/src/"
+                        ]
+                    },
+                    "classmap": [
+                        "tests/src"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "source": "https://github.com/eventum/eventum/tree/v3.5.5"
+                }
+            },
+            "v3.5.6": {
+                "name": "eventum/eventum",
+                "version": "v3.5.6",
+                "version_normalized": "3.5.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "0d8e160bc5b751ddab4a1efdae3dc82eac879843"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/0d8e160bc5b751ddab4a1efdae3dc82eac879843",
+                    "reference": "0d8e160bc5b751ddab4a1efdae3dc82eac879843",
+                    "shasum": ""
+                },
+                "require": {
+                    "cebe/markdown": "^1.2",
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/dbal": "^2.5",
+                    "doctrine/orm": "^2.5",
+                    "enrise/urihelper": "^1.0",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "fonts/liberation": "*",
+                    "glen/filename-normalizer": "^2.0",
+                    "ircmaxell/random-lib": "~1.1.0",
+                    "league/flysystem": "^1.0",
+                    "malkusch/lock": "^0.4.0",
+                    "mnapoli/silly": "^1.5",
+                    "monolog/monolog": "^1.22.0",
+                    "pear-pear.php.net/math_stats": "*",
+                    "pear-pear.php.net/net_pop3": "*",
+                    "pear-pear.php.net/net_url": "*",
+                    "pear-pear.php.net/text_diff": "*",
+                    "pear/auth_sasl": "*",
+                    "pear/net_smtp": "1.6.*",
+                    "pear/net_socket": "*",
+                    "pear/pear-core-minimal": "^1.10",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^5.6.0 || ^7.0",
+                    "php-gettext/php-gettext": "1.0.*",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "robmorgan/phinx": "^0.9.2",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/console": "^3.2.0",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0",
+                    "symfony/filesystem": "^2.7 || ^3.0",
+                    "symfony/http-foundation": "^2.7 || ^3.0",
+                    "symfony/ldap": "^2.7 || ^3.3",
+                    "symfony/security-csrf": "^3.4",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "zendframework/zend-config": "2.4.*",
+                    "zendframework/zend-mail": "dev-develop-2.4",
+                    "zendframework/zend-servicemanager": "2.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-mbstring": "1.1.1",
+                    "symfony/polyfill-php55": "1.1.1",
+                    "symfony/polyfill-php56": "1.6.0",
+                    "zendframework/zend-crypt": "2.4.9"
+                },
+                "require-dev": {
+                    "bgrins/filereader.js": "*",
+                    "components/jquery": "~1.8.3",
+                    "components/jquery-blockui": "*@dev",
+                    "components/jquery-chosen": "*",
+                    "components/jquery-cookie": "~1.4.1",
+                    "components/jquery-datatables": "~1.10.4",
+                    "components/jqueryui": "1.11.*",
+                    "drmonty/garlicjs": "~1.2.4",
+                    "enyo/dropzone": "~4.3.0",
+                    "eventum/rpc": "~4.0.0",
+                    "fortawesome/font-awesome": "^4.7",
+                    "jackmoore/autosize": "*",
+                    "jasig/phpcas": "~1.3.3",
+                    "jquery-form/form": "^4.2",
+                    "maximebf/debugbar": "1.*",
+                    "rmm5t/jquery-timeago": "*",
+                    "robloach/component-installer": "*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/thanks": "^1.0",
+                    "symfony/var-dumper": "~2.7.3",
+                    "widernet/cmd-ctrl-enter": "~0.2.0"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2019-01-03T21:40:47+00:00",
+                "type": "project",
+                "autoload": {
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/",
+                            "tests/src/"
+                        ]
+                    },
+                    "classmap": [
+                        "tests/src"
+                    ]
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "source": "https://github.com/eventum/eventum/tree/v3.5.6"
+                }
             }
         },
         "fonts/liberation": {
@@ -4790,7 +5692,7 @@
                 "license": [
                     "New BSD License"
                 ],
-                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded.\nAlso Lzma2 compressed archives are supported with xz extension."
             },
             "1.3.12": {
                 "name": "pear-pear.php.net/Archive_Tar",
@@ -4821,7 +5723,7 @@
                 "license": [
                     "New BSD License"
                 ],
-                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded.\nAlso Lzma2 compressed archives are supported with xz extension."
             },
             "1.3.13": {
                 "name": "pear-pear.php.net/Archive_Tar",
@@ -4852,7 +5754,7 @@
                 "license": [
                     "New BSD License"
                 ],
-                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded.\nAlso Lzma2 compressed archives are supported with xz extension."
             },
             "1.3.14": {
                 "name": "pear-pear.php.net/Archive_Tar",
@@ -4883,7 +5785,7 @@
                 "license": [
                     "New BSD License"
                 ],
-                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded.\nAlso Lzma2 compressed archives are supported with xz extension."
             },
             "1.3.15": {
                 "name": "pear-pear.php.net/Archive_Tar",
@@ -4914,7 +5816,7 @@
                 "license": [
                     "New BSD License"
                 ],
-                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded.\nAlso Lzma2 compressed archives are supported with xz extension."
             },
             "1.3.16": {
                 "name": "pear-pear.php.net/Archive_Tar",
@@ -4945,7 +5847,7 @@
                 "license": [
                     "New BSD License"
                 ],
-                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded."
+                "description": "This class provides handling of tar files in PHP.\nIt supports creating, listing, extracting and adding to tar files.\nGzip support is available if PHP has the zlib extension built-in or\nloaded. Bz2 compression is also supported with the bz2 extension loaded.\nAlso Lzma2 compressed archives are supported with xz extension."
             }
         },
         "pear-pear.php.net/auth_sasl": {
@@ -5119,6 +6021,38 @@
                 "replace": {
                     "pear-pear/db": "== 1.9.2.0",
                     "pear/db": "== 1.9.2.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "PHP License"
+                ],
+                "description": "DB is a database abstraction layer providing:\n* an OO-style query API\n* portability features that make programs written for one DBMS work with other DBMS's\n* a DSN (data source name) format for specifying database servers\n* prepare/execute (bind) emulation for databases that don't support it natively\n* a result object for each query response\n* portable error codes\n* sequence emulation\n* sequential and non-sequential row fetching as well as bulk fetching\n* formats fetched rows as associative arrays, ordered arrays or objects\n* row limit support\n* transactions support\n* table information interface\n* DocBook and phpDocumentor API documentation\n\nDB layers itself on top of PHP's existing\ndatabase extensions.\n\nDrivers for the following extensions pass\nthe complete test suite and provide\ninterchangeability when all of DB's\nportability options are enabled:\n\n  fbsql, ibase, informix, msql, mssql,\n  mysql, mysqli, oci8, odbc, pgsql,\n  sqlite and sybase.\n\nThere is also a driver for the dbase\nextension, but it can't be used\ninterchangeably because dbase doesn't\nsupport many standard DBMS features.\n\nDB is compatible with PHP 5 and PHP 7."
+            },
+            "1.9.3": {
+                "name": "pear-pear.php.net/DB",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/DB-1.9.3.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "pear-pear.php.net/pear": ">=1.10.0.0",
+                    "php": ">=5.0.0.0"
+                },
+                "replace": {
+                    "pear-pear/db": "== 1.9.3.0",
+                    "pear/db": "== 1.9.3.0"
                 },
                 "type": "pear-library",
                 "autoload": {
@@ -6464,7 +7398,7 @@
                     "/"
                 ],
                 "license": [
-                    "PHP License"
+                    "BSD-2-Clause"
                 ],
                 "description": "Provides an implementation of the SMTP protocol using PEAR's Net_Socket class."
             }
@@ -7293,12 +8227,12 @@
                 "version_normalized": "dev-develop-2.4",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/glensc/zend-mail.git",
+                    "url": "https://github.com/eventum/zend-mail.git",
                     "reference": "cbabc38a56c2e1ea156b3646db9a6f5c25c79826"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/zend-mail/zipball/cbabc38a56c2e1ea156b3646db9a6f5c25c79826",
+                    "url": "https://api.github.com/repos/eventum/zend-mail/zipball/cbabc38a56c2e1ea156b3646db9a6f5c25c79826",
                     "reference": "cbabc38a56c2e1ea156b3646db9a6f5c25c79826",
                     "shasum": ""
                 },
@@ -7349,7 +8283,7 @@
                     "zf2"
                 ],
                 "support": {
-                    "source": "https://github.com/glensc/zend-mail/tree/develop-2.4"
+                    "source": "https://github.com/eventum/zend-mail/tree/develop-2.4"
                 }
             }
         }
