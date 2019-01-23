@@ -3,6 +3,6 @@
     "description": "Eventum Composer repository",
     "homepage": "https://eventum.github.io/composer/",
     "require": {
-        "composer/satis": "^1.0"
+        "composer/satis": "dev-master#6d7ba92 as 1.0.0"
     }
 }
