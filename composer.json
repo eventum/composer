@@ -1,0 +1,8 @@
+{
+    "name": "eventum/composer",
+    "description": "Eventum Composer repository",
+    "homepage": "https://eventum.github.io/composer/",
+    "require": {
+        "composer/satis": "^1.0"
+    }
+}
