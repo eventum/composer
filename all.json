@@ -7631,68 +7631,6 @@
             }
         },
         "pear-pear.php.net/structures_graph": {
-            "1.0.2": {
-                "name": "pear-pear.php.net/Structures_Graph",
-                "version": "1.0.2",
-                "version_normalized": "1.0.2.0",
-                "dist": {
-                    "type": "file",
-                    "url": "https://pear.php.net/get/Structures_Graph-1.0.2.tgz",
-                    "reference": null,
-                    "shasum": null
-                },
-                "require": {
-                    "php": ">=4.2.0.0"
-                },
-                "replace": {
-                    "pear-pear/structures_graph": "== 1.0.2.0",
-                    "pear/structures_graph": "== 1.0.2.0"
-                },
-                "type": "pear-library",
-                "autoload": {
-                    "classmap": [
-                        ""
-                    ]
-                },
-                "include-path": [
-                    "/"
-                ],
-                "license": [
-                    "LGPL-3.0+"
-                ],
-                "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
-            },
-            "1.0.3": {
-                "name": "pear-pear.php.net/Structures_Graph",
-                "version": "1.0.3",
-                "version_normalized": "1.0.3.0",
-                "dist": {
-                    "type": "file",
-                    "url": "https://pear.php.net/get/Structures_Graph-1.0.3.tgz",
-                    "reference": null,
-                    "shasum": null
-                },
-                "require": {
-                    "php": ">=4.2.0.0"
-                },
-                "replace": {
-                    "pear-pear/structures_graph": "== 1.0.3.0",
-                    "pear/structures_graph": "== 1.0.3.0"
-                },
-                "type": "pear-library",
-                "autoload": {
-                    "classmap": [
-                        ""
-                    ]
-                },
-                "include-path": [
-                    "/"
-                ],
-                "license": [
-                    "LGPL-3.0+"
-                ],
-                "description": "Structures_Graph is a package for creating and manipulating graph datastructures. It allows building of directed\nand undirected graphs, with data and metadata stored in nodes. The library provides functions for graph traversing\nas well as for characteristic extraction from the graph topology."
-            },
             "1.0.4": {
                 "name": "pear-pear.php.net/Structures_Graph",
                 "version": "1.0.4",
@@ -7821,6 +7759,40 @@
                     "PHP License"
                 ],
                 "description": "A PEAR-ified version of Useful Inc's XML-RPC for PHP.\n\nIt has support for HTTP/HTTPS transport, proxies and authentication."
+            }
+        },
+        "pear-pear.php.net/xml_util": {
+            "1.2.3": {
+                "name": "pear-pear.php.net/XML_Util",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "dist": {
+                    "type": "file",
+                    "url": "https://pear.php.net/get/XML_Util-1.2.3.tgz",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-pcre": "*",
+                    "php": ">=4.3.0.0"
+                },
+                "replace": {
+                    "pear-pear/xml_util": "== 1.2.3.0",
+                    "pear/xml_util": "== 1.2.3.0"
+                },
+                "type": "pear-library",
+                "autoload": {
+                    "classmap": [
+                        ""
+                    ]
+                },
+                "include-path": [
+                    "/"
+                ],
+                "license": [
+                    "BSD License"
+                ],
+                "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
             }
         },
         "php-gettext/php-gettext": {
