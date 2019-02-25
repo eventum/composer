@@ -5796,12 +5796,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/glensc/php-Horde_Util.git",
-                    "reference": "015b2d21c78155ae7128ac28f48366c805759f70"
+                    "reference": "b9e6f35a9b503469afe3f25e7d78c8b8dc7e1666"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/glensc/php-Horde_Util/zipball/015b2d21c78155ae7128ac28f48366c805759f70",
-                    "reference": "015b2d21c78155ae7128ac28f48366c805759f70",
+                    "url": "https://api.github.com/repos/glensc/php-Horde_Util/zipball/b9e6f35a9b503469afe3f25e7d78c8b8dc7e1666",
+                    "reference": "b9e6f35a9b503469afe3f25e7d78c8b8dc7e1666",
                     "shasum": ""
                 },
                 "require": {
@@ -5827,7 +5827,7 @@
                 "type": "library",
                 "autoload": {
                     "psr-0": {
-                        "Horde_Util": "lib/"
+                        "Horde": "lib/"
                     }
                 },
                 "license": [
