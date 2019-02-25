@@ -14,6 +14,14 @@
 		},
 		{
 			"type": "vcs",
+			"url": "https://github.com/glensc/php-Horde_Text_Flowed"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/glensc/php-Horde_Util"
+		},
+		{
+			"type": "vcs",
 			"url": "https://github.com/glensc/zend-mail"
 		},
 		{
@@ -356,6 +364,8 @@
 		"eventum/eventum": "^3.0.9",
 		"fonts/liberation": "*",
 		"fortawesome/font-awesome": "^4.7",
+		"horde/text-flowed": "dev-patch-1 as 2.0.3",
+		"horde/util": "dev-patch-1 as 2.5.8",
 		"ichord/At.js": "~1.5.3",
 		"ichord/Caret.js": "~0.3.1",
 		"jackmoore/autosize":"~3.0.13",
