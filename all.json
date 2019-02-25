@@ -5737,6 +5737,126 @@
                 ]
             }
         },
+        "horde/text-flowed": {
+            "dev-patch-1": {
+                "name": "horde/text-flowed",
+                "version": "dev-patch-1",
+                "version_normalized": "dev-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/php-Horde_Text_Flowed.git",
+                    "reference": "ad30eea8e427aba1219d3b8b52750b7d04a60a91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/php-Horde_Text_Flowed/zipball/ad30eea8e427aba1219d3b8b52750b7d04a60a91",
+                    "reference": "ad30eea8e427aba1219d3b8b52750b7d04a60a91",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear-pear.horde.org/horde_util": "^2",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_text_flowed": "self.version",
+                    "pear-pear.horde.org/horde_text_flowed": "self.version"
+                },
+                "suggest": {
+                    "pear-pear.horde.org/Horde_Test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Text_Flowed": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Flowed text library",
+                "homepage": "https://www.horde.org/libraries/Horde_Text_Flowed",
+                "support": {
+                    "source": "https://github.com/glensc/php-Horde_Text_Flowed/tree/patch-1"
+                }
+            }
+        },
+        "horde/util": {
+            "dev-patch-1": {
+                "name": "horde/util",
+                "version": "dev-patch-1",
+                "version_normalized": "dev-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/glensc/php-Horde_Util.git",
+                    "reference": "015b2d21c78155ae7128ac28f48366c805759f70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/glensc/php-Horde_Util/zipball/015b2d21c78155ae7128ac28f48366c805759f70",
+                    "reference": "015b2d21c78155ae7128ac28f48366c805759f70",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "php": "^5.3 || ^7"
+                },
+                "replace": {
+                    "pear-horde/horde_util": "self.version",
+                    "pear-pear.horde.org/horde_util": "self.version"
+                },
+                "suggest": {
+                    "ext-ctype": "*",
+                    "ext-filter": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-xml": "*",
+                    "pear-pear.horde.org/Horde_Imap_Client": "^2",
+                    "pear-pear.horde.org/Horde_Test": "^2.1"
+                },
+                "time": "2017-11-11T00:00:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Horde_Util": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1"
+                ],
+                "authors": [
+                    {
+                        "name": "Chuck Hagenbuch",
+                        "email": "chuck@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Jan Schneider",
+                        "email": "jan@horde.org",
+                        "role": "lead"
+                    },
+                    {
+                        "name": "Michael Slusarz",
+                        "email": "slusarz@horde.org",
+                        "role": "developer"
+                    }
+                ],
+                "description": "Utility library",
+                "homepage": "https://www.horde.org/libraries/Horde_Util",
+                "support": {
+                    "source": "https://github.com/glensc/php-Horde_Util/tree/patch-1"
+                }
+            }
+        },
         "ichord/at.js": {
             "1.5.3": {
                 "name": "ichord/At.js",
