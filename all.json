@@ -8690,16 +8690,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/eventum/zend-mail.git",
-                    "reference": "cbabc38a56c2e1ea156b3646db9a6f5c25c79826"
+                    "reference": "cb8d0e08189df56689704584b0f9c38c6a21c351"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/eventum/zend-mail/zipball/cbabc38a56c2e1ea156b3646db9a6f5c25c79826",
-                    "reference": "cbabc38a56c2e1ea156b3646db9a6f5c25c79826",
+                    "url": "https://api.github.com/repos/eventum/zend-mail/zipball/cb8d0e08189df56689704584b0f9c38c6a21c351",
+                    "reference": "cb8d0e08189df56689704584b0f9c38c6a21c351",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.23",
+                    "php": "^5.4 || ^7.0",
+                    "true/punycode": "^2.1",
                     "zendframework/zend-loader": "~2.4.0",
                     "zendframework/zend-mime": "~2.4.0",
                     "zendframework/zend-stdlib": "~2.4.0",
@@ -8708,15 +8709,15 @@
                 "require-dev": {
                     "fabpot/php-cs-fixer": "1.7.*",
                     "phpunit/phpunit": "~4.0",
-                    "satooshi/php-coveralls": "dev-master",
                     "zendframework/zend-config": "~2.4.0",
+                    "zendframework/zend-crypt": "~2.4.0",
                     "zendframework/zend-servicemanager": "~2.4.0"
                 },
                 "suggest": {
                     "zendframework/zend-crypt": "Crammd5 support in SMTP Auth",
                     "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
                 },
-                "time": "2018-03-13T21:01:43+00:00",
+                "time": "2019-03-07T09:08:22+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
