@@ -5,7 +5,8 @@ This is [composer](https://getcomposer.org/) repository to speed up packages ins
 
 Contains:
   - PEAR packages used by Eventum
-  - Various third-party libraries lacking `composer.json`
+  - Third-party libraries lacking `composer.json` or having broken `composer.json`
+  - Packages that needed fixes that upstream does not accept
 
 To use this, Eventum `composer.json` should contain:
 
@@ -15,6 +16,7 @@ To use this, Eventum `composer.json` should contain:
 			"type": "composer",
 			"url": "https://eventum.github.io/composer/"
 		},
+    ]
 ```
 
 Head over to https://eventum.github.io/composer/ to browse available packages.
