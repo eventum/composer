@@ -8,17 +8,8 @@
 			"packagist.org": false
 		},
 		{
-			"type": "pear",
-			"url": "https://pear.php.net",
-			"vendor-alias": "pear"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/php-Horde_Text_Flowed"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/php-Horde_Util"
+			"type": "composer",
+			"url": "https://eventum.github.io/composer/"
 		},
 		{
 			"type": "vcs",
@@ -27,18 +18,6 @@
 		{
 			"type": "vcs",
 			"url": "https://github.com/eventum/eventum"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/EmailReplyParser"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/monolog-desktop-extensions"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/sanpii/commonmark-task-lists"
 		},
 		{
 			"type": "package",
@@ -131,26 +110,6 @@
 					}
 				}
 			}
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/malsup/blockui"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/zxcvbn"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/rmm5t/jquery-timeago"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/filereader.js"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/glensc/php-encryption.git"
 		},
 		{
 			"type": "package",
