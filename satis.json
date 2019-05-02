@@ -359,6 +359,6 @@
 		"sphinx/php-sphinxapi": "*",
 		"widernet/cmd-ctrl-enter": "~0.2.0",
 		"willdurand/email-reply-parser": "dev-set-sig-regex",
-		"zendframework/zend-mail": "dev-develop-2.4"
+		"zendframework/zend-mail": "dev-develop-2.4||dev-develop-2.10"
 	}
 }
