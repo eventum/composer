@@ -9777,6 +9777,100 @@
             }
         },
         "zendframework/zend-mail": {
+            "dev-develop-2.10": {
+                "name": "zendframework/zend-mail",
+                "version": "dev-develop-2.10",
+                "version_normalized": "dev-develop-2.10",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/zend-mail.git",
+                    "reference": "e92282e8ab30a161bf9b69e010e1002a893a6428"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/zend-mail/zipball/e92282e8ab30a161bf9b69e010e1002a893a6428",
+                    "reference": "e92282e8ab30a161bf9b69e010e1002a893a6428",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-iconv": "*",
+                    "php": "^5.6 || ^7.0",
+                    "true/punycode": "^2.1",
+                    "zendframework/zend-loader": "^2.5",
+                    "zendframework/zend-mime": "^2.5",
+                    "zendframework/zend-stdlib": "^2.7 || ^3.0",
+                    "zendframework/zend-validator": "^2.10.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^5.7.25 || ^6.4.4 || ^7.1.4",
+                    "zendframework/zend-coding-standard": "~1.0.0",
+                    "zendframework/zend-config": "^2.6",
+                    "zendframework/zend-crypt": "^2.6 || ^3.0",
+                    "zendframework/zend-servicemanager": "^2.7.10 || ^3.3.1"
+                },
+                "suggest": {
+                    "zendframework/zend-crypt": "Crammd5 support in SMTP Auth",
+                    "zendframework/zend-servicemanager": "^2.7.10 || ^3.3.1 when using SMTP to deliver messages"
+                },
+                "time": "2019-05-02T21:03:22+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.10.x-dev",
+                        "dev-develop-2.10": "2.10.x-dev",
+                        "dev-develop": "2.11.x-dev"
+                    },
+                    "zf": {
+                        "component": "Zend\\Mail",
+                        "config-provider": "Zend\\Mail\\ConfigProvider"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zend\\Mail\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ZendTest\\Mail\\": "test/"
+                    }
+                },
+                "scripts": {
+                    "check": [
+                        "@cs-check",
+                        "@test"
+                    ],
+                    "cs-check": [
+                        "phpcs"
+                    ],
+                    "cs-fix": [
+                        "phpcbf"
+                    ],
+                    "test": [
+                        "phpunit --colors=always"
+                    ],
+                    "test-coverage": [
+                        "phpunit --colors=always --coverage-clover clover.xml"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+                "keywords": [
+                    "mail",
+                    "zendframework",
+                    "zf"
+                ],
+                "support": {
+                    "docs": "https://docs.zendframework.com/zend-mail/",
+                    "issues": "https://github.com/zendframework/zend-mail/issues",
+                    "source": "https://github.com/zendframework/zend-mail",
+                    "rss": "https://github.com/zendframework/zend-mail/releases.atom",
+                    "chat": "https://zendframework-slack.herokuapp.com",
+                    "forum": "https://discourse.zendframework.com/c/questions/components"
+                }
+            },
             "dev-develop-2.4": {
                 "name": "zendframework/zend-mail",
                 "version": "dev-develop-2.4",
