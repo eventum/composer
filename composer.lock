@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4fbd9ab96139ede1ee3a8582baa89ea7",
+    "content-hash": "d029eed57183649162998b246fdc14f6",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -148,12 +148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/satis.git",
-                "reference": "6d7ba92"
+                "reference": "2845708"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/satis/zipball/6d7ba92",
-                "reference": "6d7ba92",
+                "url": "https://api.github.com/repos/composer/satis/zipball/2845708",
+                "reference": "2845708",
                 "shasum": ""
             },
             "require": {
@@ -207,7 +207,7 @@
                 "repository",
                 "static"
             ],
-            "time": "2019-01-10T07:31:44+00:00"
+            "time": "2019-05-03T09:20:29+00:00"
         },
         {
             "name": "composer/semver",
