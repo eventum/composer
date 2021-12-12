@@ -108,7 +108,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/harvesthq/chosen/releases/download/v1.2.0/chosen_v1.2.0.zip",
-                    "reference": null,
                     "shasum": "ee7c9fe5ff1461bad457e523ee26e87d7d175084"
                 },
                 "type": "component",
@@ -139,7 +138,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/DataTables/DataTables/archive/1.10.4.zip",
-                    "reference": null,
                     "shasum": "f5fc67a8f660823f8cc24aeb178bfd607af8d7ec"
                 },
                 "type": "component",
@@ -272,7 +270,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/enyo/dropzone/archive/v4.3.0.zip",
-                    "reference": null,
                     "shasum": "42357a4753636163f73b8ce3bde140366b8f8039"
                 },
                 "type": "component",
@@ -3598,6 +3595,778 @@
                     "issues": "https://github.com/eventum/eventum/issues",
                     "irc": "irc://irc.freenode.org/eventum",
                     "source": "https://github.com/eventum/eventum/tree/v3.10.6"
+                }
+            },
+            "v3.10.7": {
+                "name": "eventum/eventum",
+                "version": "v3.10.7",
+                "version_normalized": "3.10.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "81fbd075b12ba32b01c4720c1408672e034d54f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/81fbd075b12ba32b01c4720c1408672e034d54f9",
+                    "reference": "81fbd075b12ba32b01c4720c1408672e034d54f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/cache": "1.11.*",
+                    "doctrine/dbal": "2.12.x",
+                    "doctrine/doctrine-bundle": "^2.0",
+                    "doctrine/orm": "^2.7.3",
+                    "enrise/urihelper": "^1.0",
+                    "ext-ctype": "*",
+                    "ext-dom": "*",
+                    "ext-fileinfo": "*",
+                    "ext-filter": "*",
+                    "ext-gettext": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "ext-xml": "*",
+                    "ezyang/htmlpurifier": "^4.10",
+                    "fonts/liberation": "*",
+                    "giberti/commonmark-emoji-extension": "^0.2.0",
+                    "glen/filename-normalizer": "^2.0",
+                    "horde/text-flowed": "dev-patch-1 as 2.0.3",
+                    "horde/util": "dev-patch-1 as 2.5.8",
+                    "ircmaxell/random-lib": "^1.2",
+                    "laminas/laminas-config": "^3.3",
+                    "laminas/laminas-mail": "^2.14",
+                    "laminas/laminas-servicemanager": "^3.4",
+                    "league/commonmark": "^1.5.4",
+                    "league/flysystem": "^1.0",
+                    "league/html-to-markdown": "^4.8",
+                    "monolog/monolog": "^1.22.0",
+                    "ocramius/lazy-property": "^1.0",
+                    "ocramius/package-versions": "^1.4",
+                    "perftools/php-profiler": "^1.0",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^7.3.0 || ^8.0",
+                    "php-ds/php-ds": "^1.2",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "pimple/pimple": "^3.2",
+                    "portphp/csv": "^1.1",
+                    "portphp/doctrine": "^1.1",
+                    "portphp/steps": "^1.2",
+                    "robmorgan/phinx": "^0.12.3",
+                    "sebastian/diff": "^3.0",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/asset": "^4.4",
+                    "symfony/console": "^3.2.0 || ^4.0",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/expression-language": "^4.3",
+                    "symfony/filesystem": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/flex": "^1.9",
+                    "symfony/framework-bundle": "^4.2",
+                    "symfony/http-foundation": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/ldap": "^2.7 || ^3.3 || ^4.0",
+                    "symfony/lock": "^4.4",
+                    "symfony/monolog-bridge": "^4.4",
+                    "symfony/monolog-bundle": "^3.5",
+                    "symfony/security-bundle": "^4.3",
+                    "symfony/security-csrf": "^3.4 || ^4.0",
+                    "symfony/var-dumper": "^4.4",
+                    "symfony/var-exporter": "^4.2",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "xemlock/htmlpurifier-html5": "^0.1.10"
+                },
+                "conflict": {
+                    "symfony/cache": ">=5",
+                    "symfony/config": ">=5",
+                    "symfony/dependency-injection": ">=5",
+                    "symfony/dom-crawler": ">=5",
+                    "symfony/finder": ">=5",
+                    "symfony/mime": ">=5",
+                    "symfony/options-resolver": ">=5",
+                    "symfony/property-access": ">=5",
+                    "symfony/property-info": ">=5",
+                    "symfony/routing": ">=5",
+                    "symfony/twig-bridge": ">=5"
+                },
+                "replace": {
+                    "laminas/laminas-loader": "2.99",
+                    "laminas/laminas-zendframework-bridge": "1.99",
+                    "paragonie/random_compat": "9.99.99",
+                    "symfony/polyfill-ctype": "1.99",
+                    "symfony/polyfill-intl-idn": "1.99",
+                    "symfony/polyfill-intl-normalizer": "1.99",
+                    "symfony/polyfill-mbstring": "1.99",
+                    "symfony/polyfill-php72": "1.99"
+                },
+                "require-dev": {
+                    "balbuf/composer-git-merge-driver": "^1.1",
+                    "eventum/rpc": "^4.3.0",
+                    "jasig/phpcas": "~1.3.3",
+                    "maximebf/debugbar": "1.*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/browser-kit": "^4.2",
+                    "symfony/inflector": "^4.2",
+                    "symfony/phpunit-bridge": "^4.2",
+                    "symfony/stopwatch": "^4.2",
+                    "symfony/thanks": "^1.0",
+                    "symfony/web-profiler-bundle": "^4.2"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2021-10-19T04:19:40+00:00",
+                "type": "project",
+                "extra": {
+                    "config-dir": "res",
+                    "public-dir": "htdocs",
+                    "symfony": {
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/"
+                        ]
+                    },
+                    "classmap": [
+                        "db/seeds"
+                    ]
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "echo Run \"composer assets\" to build css/js"
+                    ],
+                    "assets": [
+                        "yarn",
+                        "yarn run assets:development"
+                    ],
+                    "test": [
+                        "simple-phpunit --exclude-group=$PHPUNIT_EXCLUDE_GROUP"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "source": "https://github.com/eventum/eventum/tree/v3.10.7"
+                }
+            },
+            "v3.10.7.1": {
+                "name": "eventum/eventum",
+                "version": "v3.10.7.1",
+                "version_normalized": "3.10.7.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "75eaffc6bed2c04bfe25287dffbfe78b9d7cf270"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/75eaffc6bed2c04bfe25287dffbfe78b9d7cf270",
+                    "reference": "75eaffc6bed2c04bfe25287dffbfe78b9d7cf270",
+                    "shasum": ""
+                },
+                "require": {
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/cache": "1.11.*",
+                    "doctrine/dbal": "2.12.x",
+                    "doctrine/doctrine-bundle": "^2.0",
+                    "doctrine/orm": "^2.7.3",
+                    "enrise/urihelper": "^1.0",
+                    "ext-ctype": "*",
+                    "ext-dom": "*",
+                    "ext-fileinfo": "*",
+                    "ext-filter": "*",
+                    "ext-gettext": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "ext-xml": "*",
+                    "ezyang/htmlpurifier": "^4.10",
+                    "fonts/liberation": "*",
+                    "giberti/commonmark-emoji-extension": "^0.2.0",
+                    "glen/filename-normalizer": "^2.0",
+                    "horde/text-flowed": "dev-patch-1 as 2.0.3",
+                    "horde/util": "dev-patch-1 as 2.5.8",
+                    "ircmaxell/random-lib": "^1.2",
+                    "laminas/laminas-config": "^3.3",
+                    "laminas/laminas-mail": "^2.14",
+                    "laminas/laminas-servicemanager": "^3.4",
+                    "league/commonmark": "^1.5.4",
+                    "league/flysystem": "^1.0",
+                    "league/html-to-markdown": "^4.8",
+                    "monolog/monolog": "^1.22.0",
+                    "ocramius/lazy-property": "^1.0",
+                    "ocramius/package-versions": "^1.4",
+                    "perftools/php-profiler": "^1.0",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^7.3.0 || ^8.0",
+                    "php-ds/php-ds": "^1.2",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "pimple/pimple": "^3.2",
+                    "portphp/csv": "^1.1",
+                    "portphp/doctrine": "^1.1",
+                    "portphp/steps": "^1.2",
+                    "robmorgan/phinx": "^0.12.3",
+                    "sebastian/diff": "^3.0",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/asset": "^4.4",
+                    "symfony/console": "^3.2.0 || ^4.0",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/expression-language": "^4.3",
+                    "symfony/filesystem": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/flex": "^1.9",
+                    "symfony/framework-bundle": "^4.2",
+                    "symfony/http-foundation": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/ldap": "^2.7 || ^3.3 || ^4.0",
+                    "symfony/lock": "^4.4",
+                    "symfony/monolog-bridge": "^4.4",
+                    "symfony/monolog-bundle": "^3.5",
+                    "symfony/security-bundle": "^4.3",
+                    "symfony/security-csrf": "^3.4 || ^4.0",
+                    "symfony/var-dumper": "^4.4",
+                    "symfony/var-exporter": "^4.2",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "xemlock/htmlpurifier-html5": "^0.1.10"
+                },
+                "conflict": {
+                    "symfony/cache": ">=5",
+                    "symfony/config": ">=5",
+                    "symfony/dependency-injection": ">=5",
+                    "symfony/dom-crawler": ">=5",
+                    "symfony/finder": ">=5",
+                    "symfony/mime": ">=5",
+                    "symfony/options-resolver": ">=5",
+                    "symfony/property-access": ">=5",
+                    "symfony/property-info": ">=5",
+                    "symfony/routing": ">=5",
+                    "symfony/twig-bridge": ">=5"
+                },
+                "replace": {
+                    "laminas/laminas-loader": "2.99",
+                    "laminas/laminas-zendframework-bridge": "1.99",
+                    "paragonie/random_compat": "9.99.99",
+                    "symfony/polyfill-ctype": "1.99",
+                    "symfony/polyfill-intl-idn": "1.99",
+                    "symfony/polyfill-intl-normalizer": "1.99",
+                    "symfony/polyfill-mbstring": "1.99",
+                    "symfony/polyfill-php72": "1.99"
+                },
+                "require-dev": {
+                    "balbuf/composer-git-merge-driver": "^1.1",
+                    "eventum/rpc": "^4.3.0",
+                    "jasig/phpcas": "~1.3.3",
+                    "maximebf/debugbar": "1.*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/browser-kit": "^4.2",
+                    "symfony/inflector": "^4.2",
+                    "symfony/phpunit-bridge": "^4.2",
+                    "symfony/stopwatch": "^4.2",
+                    "symfony/thanks": "^1.0",
+                    "symfony/web-profiler-bundle": "^4.2"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2021-11-09T22:06:14+00:00",
+                "type": "project",
+                "extra": {
+                    "config-dir": "res",
+                    "public-dir": "htdocs",
+                    "symfony": {
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/"
+                        ]
+                    },
+                    "classmap": [
+                        "db/seeds"
+                    ]
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "echo Run \"composer assets\" to build css/js"
+                    ],
+                    "assets": [
+                        "yarn",
+                        "yarn run assets:development"
+                    ],
+                    "test": [
+                        "simple-phpunit --exclude-group=$PHPUNIT_EXCLUDE_GROUP"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "source": "https://github.com/eventum/eventum/tree/v3.10.7.1"
+                }
+            },
+            "v3.10.8": {
+                "name": "eventum/eventum",
+                "version": "v3.10.8",
+                "version_normalized": "3.10.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "6f9556b8b9628cf2f8e587fea0fd20980ff60c11"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/6f9556b8b9628cf2f8e587fea0fd20980ff60c11",
+                    "reference": "6f9556b8b9628cf2f8e587fea0fd20980ff60c11",
+                    "shasum": ""
+                },
+                "require": {
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/cache": "1.11.*",
+                    "doctrine/dbal": "2.12.x",
+                    "doctrine/doctrine-bundle": "^2.0",
+                    "doctrine/orm": "^2.7.3",
+                    "enrise/urihelper": "^1.0",
+                    "ext-ctype": "*",
+                    "ext-dom": "*",
+                    "ext-fileinfo": "*",
+                    "ext-filter": "*",
+                    "ext-gettext": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "ext-xml": "*",
+                    "ezyang/htmlpurifier": "^4.10",
+                    "fonts/liberation": "*",
+                    "giberti/commonmark-emoji-extension": "^0.2.0",
+                    "glen/filename-normalizer": "^2.0",
+                    "horde/text-flowed": "dev-patch-1 as 2.0.3",
+                    "horde/util": "dev-patch-1 as 2.5.8",
+                    "ircmaxell/random-lib": "^1.2",
+                    "laminas/laminas-config": "^3.3",
+                    "laminas/laminas-mail": "^2.14",
+                    "laminas/laminas-servicemanager": "^3.4",
+                    "league/commonmark": "^1.5.4",
+                    "league/flysystem": "^1.0",
+                    "league/html-to-markdown": "^4.8",
+                    "monolog/monolog": "^1.22.0",
+                    "ocramius/lazy-property": "^1.0",
+                    "ocramius/package-versions": "^1.4",
+                    "perftools/php-profiler": "^1.0",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^7.3.0 || ^8.0",
+                    "php-ds/php-ds": "^1.2",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "pimple/pimple": "^3.2",
+                    "portphp/csv": "^1.1",
+                    "portphp/doctrine": "^1.1",
+                    "portphp/steps": "^1.2",
+                    "robmorgan/phinx": "^0.12.3",
+                    "sebastian/diff": "^3.0",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/asset": "^4.4",
+                    "symfony/console": "^3.2.0 || ^4.0",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/expression-language": "^4.3",
+                    "symfony/filesystem": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/flex": "^1.9",
+                    "symfony/framework-bundle": "^4.2",
+                    "symfony/http-foundation": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/ldap": "^2.7 || ^3.3 || ^4.0",
+                    "symfony/lock": "^4.4",
+                    "symfony/monolog-bridge": "^4.4",
+                    "symfony/monolog-bundle": "^3.5",
+                    "symfony/security-bundle": "^4.3",
+                    "symfony/security-csrf": "^3.4 || ^4.0",
+                    "symfony/var-dumper": "^4.4",
+                    "symfony/var-exporter": "^4.2",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "xemlock/htmlpurifier-html5": "^0.1.10"
+                },
+                "conflict": {
+                    "symfony/cache": ">=5",
+                    "symfony/config": ">=5",
+                    "symfony/dependency-injection": ">=5",
+                    "symfony/dom-crawler": ">=5",
+                    "symfony/finder": ">=5",
+                    "symfony/mime": ">=5",
+                    "symfony/options-resolver": ">=5",
+                    "symfony/property-access": ">=5",
+                    "symfony/property-info": ">=5",
+                    "symfony/routing": ">=5",
+                    "symfony/twig-bridge": ">=5"
+                },
+                "replace": {
+                    "laminas/laminas-loader": "2.99",
+                    "laminas/laminas-zendframework-bridge": "1.99",
+                    "paragonie/random_compat": "9.99.99",
+                    "symfony/polyfill-ctype": "1.99",
+                    "symfony/polyfill-intl-idn": "1.99",
+                    "symfony/polyfill-intl-normalizer": "1.99",
+                    "symfony/polyfill-mbstring": "1.99",
+                    "symfony/polyfill-php72": "1.99"
+                },
+                "require-dev": {
+                    "balbuf/composer-git-merge-driver": "^1.1",
+                    "eventum/rpc": "^4.3.0",
+                    "jasig/phpcas": "~1.3.3",
+                    "maximebf/debugbar": "1.*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/browser-kit": "^4.2",
+                    "symfony/inflector": "^4.2",
+                    "symfony/phpunit-bridge": "^4.2",
+                    "symfony/stopwatch": "^4.2",
+                    "symfony/thanks": "^1.0",
+                    "symfony/web-profiler-bundle": "^4.2"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2021-11-10T00:08:52+00:00",
+                "type": "project",
+                "extra": {
+                    "config-dir": "res",
+                    "public-dir": "htdocs",
+                    "symfony": {
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/"
+                        ]
+                    },
+                    "classmap": [
+                        "db/seeds"
+                    ]
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "echo Run \"composer assets\" to build css/js"
+                    ],
+                    "assets": [
+                        "yarn",
+                        "yarn run assets:development"
+                    ],
+                    "test": [
+                        "simple-phpunit --exclude-group=$PHPUNIT_EXCLUDE_GROUP"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "source": "https://github.com/eventum/eventum/tree/v3.10.8"
+                }
+            },
+            "v3.10.9": {
+                "name": "eventum/eventum",
+                "version": "v3.10.9",
+                "version_normalized": "3.10.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/eventum/eventum.git",
+                    "reference": "f5eaf03fb9b3ebd9ff8a0f99bac2173fb4894577"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/eventum/eventum/zipball/f5eaf03fb9b3ebd9ff8a0f99bac2173fb4894577",
+                    "reference": "f5eaf03fb9b3ebd9ff8a0f99bac2173fb4894577",
+                    "shasum": ""
+                },
+                "require": {
+                    "defuse/php-encryption": "^2.1",
+                    "doctrine/cache": "1.11.*",
+                    "doctrine/dbal": "2.12.x",
+                    "doctrine/doctrine-bundle": "^2.0",
+                    "doctrine/orm": "^2.7.3",
+                    "enrise/urihelper": "^1.0",
+                    "ext-ctype": "*",
+                    "ext-dom": "*",
+                    "ext-fileinfo": "*",
+                    "ext-filter": "*",
+                    "ext-gettext": "*",
+                    "ext-iconv": "*",
+                    "ext-intl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-pcre": "*",
+                    "ext-pdo": "*",
+                    "ext-pdo_mysql": "*",
+                    "ext-session": "*",
+                    "ext-spl": "*",
+                    "ext-xml": "*",
+                    "ezyang/htmlpurifier": "^4.10",
+                    "fonts/liberation": "*",
+                    "giberti/commonmark-emoji-extension": "^0.2.0",
+                    "glen/filename-normalizer": "^2.0",
+                    "horde/text-flowed": "dev-patch-1 as 2.0.3",
+                    "horde/util": "dev-patch-1 as 2.5.8",
+                    "ircmaxell/random-lib": "^1.2",
+                    "laminas/laminas-config": "^3.3",
+                    "laminas/laminas-mail": "^2.14",
+                    "laminas/laminas-servicemanager": "^3.4",
+                    "league/commonmark": "^1.5.4",
+                    "league/flysystem": "^1.0",
+                    "league/html-to-markdown": "^4.8",
+                    "monolog/monolog": "^1.22.0",
+                    "ocramius/lazy-property": "^1.0",
+                    "ocramius/package-versions": "^1.4",
+                    "perftools/php-profiler": "^1.0",
+                    "phlib/flysystem-pdo": "^1.1",
+                    "php": "^7.3.0 || ^8.0",
+                    "php-ds/php-ds": "^1.2",
+                    "phplot/phplot": "~6.1.0",
+                    "phpxmlrpc/phpxmlrpc": "^4.1",
+                    "pimple/pimple": "^3.2",
+                    "portphp/csv": "^1.1",
+                    "portphp/doctrine": "^1.1",
+                    "portphp/steps": "^1.2",
+                    "robmorgan/phinx": "^0.12.3",
+                    "sebastian/diff": "^3.0",
+                    "smarty-gettext/smarty-gettext": "~1.0",
+                    "smarty/smarty": "~3.1.12",
+                    "sphinx/php-sphinxapi": "2.0.*",
+                    "symfony/asset": "^4.4",
+                    "symfony/console": "^3.2.0 || ^4.0",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/event-dispatcher": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/expression-language": "^4.3",
+                    "symfony/filesystem": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/flex": "^1.9",
+                    "symfony/framework-bundle": "^4.2",
+                    "symfony/http-foundation": "^2.7 || ^3.0 || ^4.0",
+                    "symfony/ldap": "^2.7 || ^3.3 || ^4.0",
+                    "symfony/lock": "^4.4",
+                    "symfony/monolog-bridge": "^4.4",
+                    "symfony/monolog-bundle": "^3.5",
+                    "symfony/security-bundle": "^4.3",
+                    "symfony/security-csrf": "^3.4 || ^4.0",
+                    "symfony/var-dumper": "^4.4",
+                    "symfony/var-exporter": "^4.2",
+                    "theorchard/monolog-cascade": "^0.5.0",
+                    "willdurand/email-reply-parser": "^2.7.0",
+                    "xemlock/htmlpurifier-html5": "^0.1.10"
+                },
+                "conflict": {
+                    "symfony/cache": ">=5",
+                    "symfony/config": ">=5",
+                    "symfony/dependency-injection": ">=5",
+                    "symfony/dom-crawler": ">=5",
+                    "symfony/finder": ">=5",
+                    "symfony/mime": ">=5",
+                    "symfony/options-resolver": ">=5",
+                    "symfony/property-access": ">=5",
+                    "symfony/property-info": ">=5",
+                    "symfony/routing": ">=5",
+                    "symfony/twig-bridge": ">=5"
+                },
+                "replace": {
+                    "laminas/laminas-loader": "2.99",
+                    "laminas/laminas-zendframework-bridge": "1.99",
+                    "paragonie/random_compat": "9.99.99",
+                    "symfony/polyfill-ctype": "1.99",
+                    "symfony/polyfill-intl-idn": "1.99",
+                    "symfony/polyfill-intl-normalizer": "1.99",
+                    "symfony/polyfill-mbstring": "1.99",
+                    "symfony/polyfill-php72": "1.99"
+                },
+                "require-dev": {
+                    "balbuf/composer-git-merge-driver": "^1.1",
+                    "eventum/rpc": "^4.3.0",
+                    "jasig/phpcas": "~1.3.3",
+                    "maximebf/debugbar": "1.*",
+                    "sentry/sentry": "^1.7",
+                    "symfony/browser-kit": "^4.2",
+                    "symfony/inflector": "^4.2",
+                    "symfony/phpunit-bridge": "^4.2",
+                    "symfony/stopwatch": "^4.2",
+                    "symfony/thanks": "^1.0",
+                    "symfony/web-profiler-bundle": "^4.2"
+                },
+                "suggest": {
+                    "ext-imap": "Support for fetching mail over IMAP/POP3"
+                },
+                "time": "2021-11-15T12:42:00+00:00",
+                "type": "project",
+                "extra": {
+                    "config-dir": "res",
+                    "public-dir": "htdocs",
+                    "symfony": {
+                        "require": "4.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Eventum\\": "src/"
+                    },
+                    "classmap": [
+                        "lib/eventum"
+                    ],
+                    "files": [
+                        "lib/eventum/gettext.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Eventum\\Test\\": [
+                            "tests/"
+                        ]
+                    },
+                    "classmap": [
+                        "db/seeds"
+                    ]
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "echo Run \"composer assets\" to build css/js"
+                    ],
+                    "assets": [
+                        "yarn",
+                        "yarn run assets:development"
+                    ],
+                    "test": [
+                        "simple-phpunit --exclude-group=$PHPUNIT_EXCLUDE_GROUP"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Elan Ruusamäe",
+                        "email": "glen@delfi.ee",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Bryan Alsdorf",
+                        "email": "balsdorf@gmail.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Eventum Issue / Bug tracking system",
+                "homepage": "https://github.com/eventum/eventum",
+                "support": {
+                    "issues": "https://github.com/eventum/eventum/issues",
+                    "irc": "irc://irc.freenode.org/eventum",
+                    "source": "https://github.com/eventum/eventum/tree/v3.10.9"
                 }
             },
             "v3.2.0": {
@@ -14275,7 +15044,6 @@
                 "dist": {
                     "type": "tar",
                     "url": "https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz",
-                    "reference": null,
                     "shasum": "84b40d7f8bb0cd085dd70b3abed197133d761557"
                 },
                 "type": "library",
@@ -14292,7 +15060,6 @@
                 "dist": {
                     "type": "tar",
                     "url": "https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.tar.gz",
-                    "reference": null,
                     "shasum": "7a94b1800202e20c382d9847cdf51e8d1c106b7e"
                 },
                 "type": "library",
@@ -14463,7 +15230,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/ichord/At.js/archive/v1.5.3.zip",
-                    "reference": null,
                     "shasum": "670fae68a7576f01943c9f9eb22764603ea33d44"
                 },
                 "type": "library",
@@ -14490,7 +15256,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/ichord/Caret.js/archive/v0.3.1.zip",
-                    "reference": null,
                     "shasum": "ad928584af63ea312eaf6b39c45bcd8185ca4189"
                 },
                 "type": "library",
@@ -14514,7 +15279,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/jackmoore/autosize/archive/3.0.13.zip",
-                    "reference": null,
                     "shasum": "f2c48fb4cd76d89bb4e6e8c34e9cd130a1633aec"
                 },
                 "type": "component",
@@ -14595,9 +15359,7 @@
                 "version_normalized": "1.3.11.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Archive_Tar-1.3.11.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Archive_Tar-1.3.11.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14626,9 +15388,7 @@
                 "version_normalized": "1.3.12.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Archive_Tar-1.3.12.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Archive_Tar-1.3.12.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14657,9 +15417,7 @@
                 "version_normalized": "1.3.13.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Archive_Tar-1.3.13.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Archive_Tar-1.3.13.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14688,9 +15446,7 @@
                 "version_normalized": "1.3.14.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Archive_Tar-1.3.14.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Archive_Tar-1.3.14.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14719,9 +15475,7 @@
                 "version_normalized": "1.3.15.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Archive_Tar-1.3.15.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Archive_Tar-1.3.15.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14750,9 +15504,7 @@
                 "version_normalized": "1.3.16.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Archive_Tar-1.3.16.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Archive_Tar-1.3.16.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14783,9 +15535,7 @@
                 "version_normalized": "1.0.6.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Auth_SASL-1.0.6.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Auth_SASL-1.0.6.tgz"
                 },
                 "require": {
                     "php": ">=4.2.0.0"
@@ -14816,9 +15566,7 @@
                 "version_normalized": "1.2.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Console_Getopt-1.2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Console_Getopt-1.2.tgz"
                 },
                 "replace": {
                     "pear-pear/console_getopt": "== 1.2.0.0",
@@ -14844,9 +15592,7 @@
                 "version_normalized": "1.2.1.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Console_Getopt-1.2.1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Console_Getopt-1.2.1.tgz"
                 },
                 "replace": {
                     "pear-pear/console_getopt": "== 1.2.1.0",
@@ -14872,9 +15618,7 @@
                 "version_normalized": "1.2.2.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Console_Getopt-1.2.2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Console_Getopt-1.2.2.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14903,9 +15647,7 @@
                 "version_normalized": "1.2.3.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Console_Getopt-1.2.3.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Console_Getopt-1.2.3.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -14936,9 +15678,7 @@
                 "version_normalized": "1.9.2.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/DB-1.9.2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/DB-1.9.2.tgz"
                 },
                 "require": {
                     "pear-pear.php.net/pear": ">=1.10.0.0",
@@ -14970,9 +15710,7 @@
                 "version_normalized": "1.0.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/File_Util-1.0.0.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/File_Util-1.0.0.tgz"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -15003,9 +15741,7 @@
                 "version_normalized": "1.0.0.0-alpha1",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/File_Util-1.0.0alpha1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/File_Util-1.0.0alpha1.tgz"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -15039,9 +15775,7 @@
                 "version_normalized": "1.2.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0.tgz"
                 },
                 "require": {
                     "php": ">=4.4.9.0"
@@ -15070,9 +15804,7 @@
                 "version_normalized": "1.2.0.0-alpha1",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0a1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0a1.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -15101,9 +15833,7 @@
                 "version_normalized": "1.2.0.0-alpha2",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0a2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0a2.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -15132,9 +15862,7 @@
                 "version_normalized": "1.2.0.0-beta1",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0b1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0b1.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -15163,9 +15891,7 @@
                 "version_normalized": "1.2.0.0-beta2",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0b2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0b2.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -15194,9 +15920,7 @@
                 "version_normalized": "1.2.0.0-beta3",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0b3.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0b3.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -15225,9 +15949,7 @@
                 "version_normalized": "1.2.0.0-beta4",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0b4.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0b4.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -15256,9 +15978,7 @@
                 "version_normalized": "1.2.0.0-beta5",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail-1.2.0b5.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail-1.2.0b5.tgz"
                 },
                 "require": {
                     "php": ">=4.4.9.0"
@@ -15289,9 +16009,7 @@
                 "version_normalized": "1.10.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail_Mime-1.10.0.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail_Mime-1.10.0.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15320,9 +16038,7 @@
                 "version_normalized": "1.10.1.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail_Mime-1.10.1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail_Mime-1.10.1.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15351,9 +16067,7 @@
                 "version_normalized": "1.10.2.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail_Mime-1.10.2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail_Mime-1.10.2.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15384,9 +16098,7 @@
                 "version_normalized": "1.5.6.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Mail_mimeDecode-1.5.6.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Mail_mimeDecode-1.5.6.tgz"
                 },
                 "require": {
                     "pear-pear.php.net/mail_mime": ">1.4.0.0",
@@ -15418,9 +16130,7 @@
                 "version_normalized": "0.9.1.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Math_Stats-0.9.1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Math_Stats-0.9.1.tgz"
                 },
                 "require": {
                     "php": ">=4.2.0.0"
@@ -15451,9 +16161,7 @@
                 "version_normalized": "2.0.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15482,9 +16190,7 @@
                 "version_normalized": "2.0.0.0-RC1",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC1.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15513,9 +16219,7 @@
                 "version_normalized": "2.0.0.0-RC2",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC2.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15544,9 +16248,7 @@
                 "version_normalized": "2.0.0.0-RC3",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC3.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC3.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15575,9 +16277,7 @@
                 "version_normalized": "2.0.0.0-RC4",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC4.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC4.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15606,9 +16306,7 @@
                 "version_normalized": "2.0.0.0-RC5",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC5.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC5.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15637,9 +16335,7 @@
                 "version_normalized": "2.0.0.0-RC6",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC6.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.0RC6.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15668,9 +16364,7 @@
                 "version_normalized": "2.0.1.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.1.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15699,9 +16393,7 @@
                 "version_normalized": "2.0.10.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.10.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.10.tgz"
                 },
                 "require": {
                     "ext-ldap": "*",
@@ -15731,9 +16423,7 @@
                 "version_normalized": "2.0.11.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.11.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.11.tgz"
                 },
                 "require": {
                     "ext-ldap": "*",
@@ -15763,9 +16453,7 @@
                 "version_normalized": "2.0.12.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.12.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.12.tgz"
                 },
                 "require": {
                     "ext-ldap": "*",
@@ -15795,9 +16483,7 @@
                 "version_normalized": "2.0.2.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.2.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15826,9 +16512,7 @@
                 "version_normalized": "2.0.3.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.3.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.3.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15857,9 +16541,7 @@
                 "version_normalized": "2.0.4.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.4.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.4.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15888,9 +16570,7 @@
                 "version_normalized": "2.0.5.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.5.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.5.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15919,9 +16599,7 @@
                 "version_normalized": "2.0.6.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.6.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.6.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15950,9 +16628,7 @@
                 "version_normalized": "2.0.7.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.7.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.7.tgz"
                 },
                 "require": {
                     "php": ">=5.0.0.0"
@@ -15981,9 +16657,7 @@
                 "version_normalized": "2.0.9.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.9.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.0.9.tgz"
                 },
                 "require": {
                     "ext-ldap": "*",
@@ -16013,9 +16687,7 @@
                 "version_normalized": "2.1.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.1.0.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.1.0.tgz"
                 },
                 "require": {
                     "ext-ldap": "*",
@@ -16045,9 +16717,7 @@
                 "version_normalized": "2.2.0.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_LDAP2-2.2.0.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_LDAP2-2.2.0.tgz"
                 },
                 "require": {
                     "ext-ldap": "*",
@@ -16079,9 +16749,7 @@
                 "version_normalized": "1.3.8.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_POP3-1.3.8.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_POP3-1.3.8.tgz"
                 },
                 "require": {
                     "pear-pear.php.net/net_socket": ">=1.0.0.0",
@@ -16113,9 +16781,7 @@
                 "version_normalized": "1.1.10.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.10.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.10.tgz"
                 },
                 "require": {
                     "php": ">=5.3.0.0"
@@ -16144,9 +16810,7 @@
                 "version_normalized": "1.1.11.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.11.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.11.tgz"
                 },
                 "require": {
                     "php": ">=5.3.0.0"
@@ -16175,9 +16839,7 @@
                 "version_normalized": "1.1.12.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.12.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.12.tgz"
                 },
                 "require": {
                     "php": ">=5.3.0.0"
@@ -16206,9 +16868,7 @@
                 "version_normalized": "1.1.13.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.13.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.13.tgz"
                 },
                 "require": {
                     "php": ">=5.3.0.0"
@@ -16237,9 +16897,7 @@
                 "version_normalized": "1.1.9.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.9.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_SmartIRC-1.1.9.tgz"
                 },
                 "require": {
                     "php": ">=5.3.0.0"
@@ -16270,9 +16928,7 @@
                 "version_normalized": "1.6.3.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_SMTP-1.6.3.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_SMTP-1.6.3.tgz"
                 },
                 "require": {
                     "pear-pear.php.net/net_socket": ">=1.0.7.0",
@@ -16304,9 +16960,7 @@
                 "version_normalized": "1.0.14.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_Socket-1.0.14.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_Socket-1.0.14.tgz"
                 },
                 "require": {
                     "php": ">=4.3.0.0"
@@ -16337,9 +16991,7 @@
                 "version_normalized": "1.0.15.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Net_URL-1.0.15.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Net_URL-1.0.15.tgz"
                 },
                 "require": {
                     "php": ">=4.0.0.0"
@@ -16370,9 +17022,7 @@
                 "version_normalized": "1.9.5.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/PEAR-1.9.5.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/PEAR-1.9.5.tgz"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -16413,9 +17063,7 @@
                 "version_normalized": "1.0.4.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Structures_Graph-1.0.4.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Structures_Graph-1.0.4.tgz"
                 },
                 "require": {
                     "php": ">=4.2.0.0"
@@ -16446,9 +17094,7 @@
                 "version_normalized": "1.2.1.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Text_Diff-1.2.1.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Text_Diff-1.2.1.tgz"
                 },
                 "require": {
                     "php": ">=5.2.0.0"
@@ -16477,9 +17123,7 @@
                 "version_normalized": "1.2.2.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/Text_Diff-1.2.2.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/Text_Diff-1.2.2.tgz"
                 },
                 "require": {
                     "php": ">=5.3.0.0"
@@ -16510,9 +17154,7 @@
                 "version_normalized": "1.5.5.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/XML_RPC-1.5.5.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/XML_RPC-1.5.5.tgz"
                 },
                 "require": {
                     "ext-xml": "*",
@@ -16544,9 +17186,7 @@
                 "version_normalized": "1.2.3.0",
                 "dist": {
                     "type": "file",
-                    "url": "https://pear.php.net/get/XML_Util-1.2.3.tgz",
-                    "reference": null,
-                    "shasum": null
+                    "url": "https://pear.php.net/get/XML_Util-1.2.3.tgz"
                 },
                 "require": {
                     "ext-pcre": "*",
@@ -16579,7 +17219,6 @@
                 "dist": {
                     "type": "tar",
                     "url": "https://launchpad.net/php-gettext/trunk/1.0.11/+download/php-gettext-1.0.11.tar.gz",
-                    "reference": null,
                     "shasum": "9e6f402b460ba5e691e6e21f95d23527ab965f71"
                 },
                 "provide": {
@@ -16607,7 +17246,6 @@
                 "dist": {
                     "type": "tar",
                     "url": "https://downloads.sourceforge.net/phplot/phplot-6.1.0.tar.gz",
-                    "reference": null,
                     "shasum": "252f0b5bdfd64817630f9b67771dcf086a94a867"
                 },
                 "require": {
@@ -17193,7 +17831,6 @@
                 "dist": {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/sphinxsearch/sphinx/3b4cbb2b20e03e4d04db0695947441c62034aeec/api/sphinxapi.php",
-                    "reference": null,
                     "shasum": "2b1274cbbc4b2be2aba2cb90dc5daf2036df0f49"
                 },
                 "type": "library",
@@ -17213,7 +17850,6 @@
                 "dist": {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/sphinxsearch/sphinx/e6985ad8842baa68b99e3d1c5f6636a38c97194b/api/sphinxapi.php",
-                    "reference": null,
                     "shasum": "f36b1f28efe9ac1a53da046ac9526424aadb8bf6"
                 },
                 "type": "library",
@@ -17235,7 +17871,6 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/widernet/cmd-ctrl-enter/archive/8843088c/0.2.0.zip",
-                    "reference": null,
                     "shasum": "5ed24097dc59b1d426a5ad3efb329b19939d7b44"
                 },
                 "type": "library",
@@ -17399,7 +18034,8 @@
                     "rss": "https://github.com/zendframework/zend-mail/releases.atom",
                     "chat": "https://zendframework-slack.herokuapp.com",
                     "forum": "https://discourse.zendframework.com/c/questions/components"
-                }
+                },
+                "abandoned": true
             },
             "dev-develop-2.4": {
                 "name": "zendframework/zend-mail",
@@ -17465,7 +18101,8 @@
                 ],
                 "support": {
                     "source": "https://github.com/eventum/zend-mail/tree/develop-2.4"
-                }
+                },
+                "abandoned": true
             }
         }
     }
