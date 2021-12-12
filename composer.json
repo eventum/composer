@@ -2,6 +2,12 @@
     "name": "eventum/composer",
     "description": "Eventum Composer repository",
     "homepage": "https://eventum.github.io/composer/",
+    "config": {
+        "platform": {
+            "php": "7.3.0"
+        },
+        "sort-packages": true
+    },
     "require": {
         "composer/satis": "dev-master#2845708 as 1.0.0"
     }
