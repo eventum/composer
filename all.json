@@ -16287,6 +16287,22 @@
                 ]
             }
         },
+        "liberationfonts/liberation-fonts": {
+            "2.00.3": {
+                "name": "liberationfonts/liberation-fonts",
+                "version": "2.00.3",
+                "version_normalized": "2.00.3.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://github.com/liberationfonts/liberation-fonts/files/2012634/liberation-fonts-ttf-2.00.3.tar.gz",
+                    "shasum": "4ec2cf1ba6d47a1fa4189bb6d9153f498c11856a"
+                },
+                "type": "library",
+                "license": [
+                    "OFL-1.1"
+                ]
+            }
+        },
         "lossendae/commonmark-task-lists": {
             "dev-master": {
                 "name": "lossendae/commonmark-task-lists",
