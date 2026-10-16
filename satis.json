@@ -240,6 +240,20 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "liberationfonts/liberation-fonts",
+				"version": "2.00.3",
+				"license": "OFL-1.1",
+				"type": "library",
+				"dist": {
+					"url": "https://github.com/liberationfonts/liberation-fonts/files/2012634/liberation-fonts-ttf-2.00.3.tar.gz",
+					"shasum": "4ec2cf1ba6d47a1fa4189bb6d9153f498c11856a",
+					"type": "tar"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "fortawesome/font-awesome",
 				"description": "The iconic font and CSS framework",
 				"version": "4.7.0",
@@ -332,6 +346,7 @@
 		"ichord/At.js": "~1.5.3",
 		"ichord/Caret.js": "~0.3.1",
 		"jackmoore/autosize":"~3.0.13",
+		"liberationfonts/liberation-fonts": "*",
 		"lossendae/commonmark-task-lists": "dev-master",
 		"pear-pear.php.net/Archive_Tar": "~1.3.11",
 		"pear-pear.php.net/Auth_SASL": "~1.0.6",
